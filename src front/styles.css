@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~angular-notifier/styles";
+
+
+.footer{
+    position: fixed;
+    left: -5px;
+    bottom: 0px;
+    width: 100%;
+    right: 0px; 
+    background-color: lightgray;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+
+    z-index: 1; /* Stay on top */
+}
+
+
+.header{
+    position: fixed;
+    z-index: 1; /* Stay on top */
+    left: -25px;
+    top: 0px;
+    width: 100%;
+    right: 0px; 
+    background-color: lightgray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    letter-spacing: 0.4px;
+    line-height: 15px;    
+}
+
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body::after {
+    content: "";
+    background-image: url("assets/razno/pozadina.jpg");
+    background-position: center; 
+    background-repeat:repeat;
+    background-size: cover; 
+    position: fixed;
+    height:800px;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;   
+  }

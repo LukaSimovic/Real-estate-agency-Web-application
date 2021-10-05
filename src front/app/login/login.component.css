@@ -1,0 +1,32 @@
+
+
+.err{
+    color: red;
+}
+
+
+.loginForm{
+    border-radius: 25px;
+    border: 2px solid black;  
+    background: linear-gradient(90deg, rgba(172,183,193,1) 0%, rgba(127,126,137,1) 50%, rgba(150,194,197,1) 100%);
+    
+    text-align: center;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  
+}
+
+
+
+
+a{
+    color:blue;
+    text-decoration: underline;
+}
+
+a:hover{
+    color:whitesmoke
+}

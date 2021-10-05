@@ -1,0 +1,10 @@
+
+-frontend-
+npm install chart.js@2.9.3 --save
+npm install ng2-charts@2.4.2 --save
+npm install angular-notifier --save
+
+--backend
+npm install multer --save
+npm install @types/multer
+npm install angular-notifier --save

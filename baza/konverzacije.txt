@@ -1,0 +1,390 @@
+
+{
+    "poruke" : [ 
+        {
+            "idPoruke" : 1,
+            "tekst" : "Dajem ponudu!\nNacin placanja:U gotovini \n Cena: 110000",
+            "poslao" : "mire",
+            "datum" : "27.6.2021 11:54:54"
+        }, 
+        {
+            "idPoruke" : 2,
+            "tekst" : "Prihvatam ponudu!",
+            "poslao" : "agent joca",
+            "datum" : "28.6.2021 7:30:51"
+        }
+    ],
+    "blokiran_kupac" : 0,
+    "blokiran_vlasnik" : 0,
+    "vlasnik" : "agencija",
+    "kupac" : "mire",
+    "idNekr" : 1,
+    "idPonude" : 1,
+    "neprocitano_kupac" : 1,
+    "neprocitano_vlasnik" : 0,
+    "odobreno_agent" : 1,
+    "odobreno_vlasnik" : 1,
+    "arhivirano_kupac" : 0,
+    "arhivirano_vlasnik" : 0,
+    "proc_agencije" : 100,
+    "id" : 1,
+    "__v" : 0,
+    "arhivirano" : 0,
+    "ponuda" : {
+        "datum_pocetka" : null,
+        "datum_kraja" : null,
+        "gotovina" : 0,
+        "cena" : 110000
+    }
+}
+
+{
+    "poruke" : [ 
+        {
+            "idPoruke" : 1,
+            "tekst" : "Koliko je stan udaljen od SC Olimp?",
+            "poslao" : "steva",
+            "datum" : "28.6.2021 7:26:58"
+        }, 
+        {
+            "idPoruke" : 2,
+            "tekst" : "10 minuta peske. Pozdrav!",
+            "poslao" : "agent joca",
+            "datum" : "28.6.2021 7:30:45"
+        }, 
+        {
+            "datum" : "28.6.2021 7:30:51",
+            "idPoruke" : 3,
+            "tekst" : "Agencija odbila ponudu!",
+            "poslao" : "agent joca"
+        }
+    ],
+    "blokiran_kupac" : 0,
+    "blokiran_vlasnik" : 0,
+    "vlasnik" : "agencija",
+    "kupac" : "steva",
+    "idNekr" : 1,
+    "idPonude" : -1,
+    "neprocitano_kupac" : 0,
+    "neprocitano_vlasnik" : 0,
+    "odobreno_agent" : -1,
+    "odobreno_vlasnik" : 0,
+    "arhivirano_kupac" : 0,
+    "arhivirano_vlasnik" : 0,
+    "proc_agencije" : 0,
+    "id" : 2,
+    "__v" : 0,
+    "arhivirano" : 0
+}
+
+{
+    "poruke" : [ 
+        {
+            "idPoruke" : 1,
+            "tekst" : "Dajem ponudu!\nNacin placanja:Uzimam kredit \n Cena: 110000",
+            "poslao" : "vule",
+            "datum" : "28.6.2021 7:27:28"
+        }, 
+        {
+            "datum" : "28.6.2021 7:30:51",
+            "idPoruke" : 2,
+            "tekst" : "Agencija odbila ponudu!",
+            "poslao" : "agent joca"
+        }
+    ],
+    "blokiran_kupac" : 0,
+    "blokiran_vlasnik" : 0,
+    "vlasnik" : "agencija",
+    "kupac" : "vule",
+    "idNekr" : 1,
+    "idPonude" : 1,
+    "neprocitano_kupac" : 1,
+    "neprocitano_vlasnik" : 0,
+    "odobreno_agent" : -1,
+    "odobreno_vlasnik" : 0,
+    "arhivirano_kupac" : 0,
+    "arhivirano_vlasnik" : 0,
+    "proc_agencije" : 0,
+    "id" : 3,
+    "__v" : 0,
+    "arhivirano" : 0,
+    "ponuda" : {
+        "datum_pocetka" : null,
+        "datum_kraja" : null,
+        "gotovina" : 1,
+        "cena" : 110000
+    }
+}
+
+{
+    "poruke" : [ 
+        {
+            "idPoruke" : 1,
+            "tekst" : "Dajem ponudu:\nDatum pocetka:2021-06-30\nDatum kraja:2021-07-03\nCena:27.5",
+            "poslao" : "steva",
+            "datum" : "28.6.2021 7:33:31"
+        }, 
+        {
+            "datum" : "28.6.2021 7:36:53",
+            "idPoruke" : 2,
+            "tekst" : "Agencija odbila ponudu!",
+            "poslao" : "agent kole"
+        }, 
+        {
+            "idPoruke" : 3,
+            "tekst" : "Dajem ponudu:\nDatum pocetka:2021-07-12\nDatum kraja:2021-07-18\nCena:55",
+            "poslao" : "steva",
+            "datum" : "28.6.2021 7:41:39"
+        }, 
+        {
+            "idPoruke" : 4,
+            "tekst" : "Prihvatam ponudu!",
+            "poslao" : "agent aca",
+            "datum" : "28.6.2021 7:42:4"
+        }
+    ],
+    "blokiran_kupac" : 0,
+    "blokiran_vlasnik" : 0,
+    "vlasnik" : "agencija",
+    "kupac" : "steva",
+    "idNekr" : 6,
+    "idPonude" : 3,
+    "neprocitano_kupac" : 0,
+    "neprocitano_vlasnik" : 0,
+    "odobreno_agent" : 1,
+    "odobreno_vlasnik" : 1,
+    "arhivirano_kupac" : 0,
+    "arhivirano_vlasnik" : 0,
+    "proc_agencije" : 100,
+    "id" : 4,
+    "__v" : 0,
+    "arhivirano" : 0,
+    "ponuda" : {
+        "datum_pocetka" : "2021-07-12",
+        "datum_kraja" : "2021-07-18",
+        "gotovina" : -1,
+        "cena" : 55
+    }
+}
+
+{
+    "poruke" : [ 
+        {
+            "idPoruke" : 1,
+            "tekst" : "Dajem ponudu:\nDatum pocetka:2021-07-01\nDatum kraja:2021-07-04\nCena:27.5",
+            "poslao" : "vule",
+            "datum" : "28.6.2021 7:34:2"
+        }, 
+        {
+            "idPoruke" : 2,
+            "tekst" : "Prihvatam ponudu!",
+            "poslao" : "agent kole",
+            "datum" : "28.6.2021 7:36:53"
+        }
+    ],
+    "blokiran_kupac" : 0,
+    "blokiran_vlasnik" : 0,
+    "vlasnik" : "agencija",
+    "kupac" : "vule",
+    "idNekr" : 6,
+    "idPonude" : 1,
+    "neprocitano_kupac" : 1,
+    "neprocitano_vlasnik" : 0,
+    "odobreno_agent" : 1,
+    "odobreno_vlasnik" : 1,
+    "arhivirano_kupac" : 0,
+    "arhivirano_vlasnik" : 0,
+    "proc_agencije" : 100,
+    "id" : 5,
+    "__v" : 0,
+    "arhivirano" : 0,
+    "ponuda" : {
+        "datum_pocetka" : "2021-07-01",
+        "datum_kraja" : "2021-07-04",
+        "gotovina" : -1,
+        "cena" : 27.5
+    }
+}
+
+{
+    "poruke" : [ 
+        {
+            "idPoruke" : 1,
+            "tekst" : "Dajem ponudu:\nDatum pocetka:2021-07-08\nDatum kraja:2021-07-11\nCena:27.5",
+            "poslao" : "mire",
+            "datum" : "28.6.2021 7:34:26"
+        }, 
+        {
+            "idPoruke" : 2,
+            "tekst" : "Prihvatam ponudu!",
+            "poslao" : "agent kole",
+            "datum" : "28.6.2021 7:37:47"
+        }
+    ],
+    "blokiran_kupac" : 0,
+    "blokiran_vlasnik" : 0,
+    "vlasnik" : "agencija",
+    "kupac" : "mire",
+    "idNekr" : 6,
+    "idPonude" : 1,
+    "neprocitano_kupac" : 1,
+    "neprocitano_vlasnik" : 0,
+    "odobreno_agent" : 1,
+    "odobreno_vlasnik" : 1,
+    "arhivirano_kupac" : 0,
+    "arhivirano_vlasnik" : 0,
+    "proc_agencije" : 100,
+    "id" : 6,
+    "__v" : 0,
+    "arhivirano" : 0,
+    "ponuda" : {
+        "datum_pocetka" : "2021-07-08",
+        "datum_kraja" : "2021-07-11",
+        "gotovina" : -1,
+        "cena" : 27.5
+    }
+}
+
+{
+    "poruke" : [ 
+        {
+            "idPoruke" : 1,
+            "tekst" : "Da li u stanu mogu ziveti 3 cimerke?",
+            "poslao" : "jana",
+            "datum" : "28.6.2021 7:35:17"
+        }, 
+        {
+            "idPoruke" : 2,
+            "tekst" : "Naravno. Pozdrav!",
+            "poslao" : "agent kole",
+            "datum" : "28.6.2021 7:36:44"
+        }
+    ],
+    "blokiran_kupac" : 0,
+    "blokiran_vlasnik" : 0,
+    "vlasnik" : "agencija",
+    "kupac" : "jana",
+    "idNekr" : 6,
+    "idPonude" : -1,
+    "neprocitano_kupac" : 1,
+    "neprocitano_vlasnik" : 0,
+    "odobreno_agent" : 0,
+    "odobreno_vlasnik" : 0,
+    "arhivirano_kupac" : 0,
+    "arhivirano_vlasnik" : 0,
+    "proc_agencije" : 0,
+    "id" : 7,
+    "__v" : 0,
+    "arhivirano" : 0
+}
+
+{
+    "poruke" : [ 
+        {
+            "idPoruke" : 1,
+            "tekst" : "Dajem ponudu:\nDatum pocetka:2021-07-01\nDatum kraja:2021-07-04\nCena:45.5",
+            "poslao" : "vule",
+            "datum" : "28.6.2021 7:48:3"
+        }, 
+        {
+            "idPoruke" : 2,
+            "tekst" : "Prihvatam ponudu!",
+            "poslao" : "steva",
+            "datum" : "28.6.2021 7:50:34"
+        }
+    ],
+    "blokiran_kupac" : 0,
+    "blokiran_vlasnik" : 0,
+    "vlasnik" : "steva",
+    "kupac" : "vule",
+    "idNekr" : 3,
+    "idPonude" : 1,
+    "neprocitano_kupac" : 1,
+    "neprocitano_vlasnik" : 0,
+    "odobreno_agent" : 1,
+    "odobreno_vlasnik" : 1,
+    "arhivirano_kupac" : 0,
+    "arhivirano_vlasnik" : 0,
+    "proc_agencije" : 40,
+    "id" : 8,
+    "__v" : 0,
+    "arhivirano" : 0,
+    "ponuda" : {
+        "datum_pocetka" : "2021-07-01",
+        "datum_kraja" : "2021-07-04",
+        "gotovina" : -1,
+        "cena" : 45.5
+    }
+}
+
+{
+    "poruke" : [ 
+        {
+            "idPoruke" : 1,
+            "tekst" : "Dajem ponudu:\nDatum pocetka:2021-07-02\nDatum kraja:2021-07-04\nCena:30.333333333333332",
+            "poslao" : "mire",
+            "datum" : "28.6.2021 7:48:23"
+        }, 
+        {
+            "datum" : "28.6.2021 7:51:7",
+            "idPoruke" : 2,
+            "tekst" : "Agencija odbila ponudu!",
+            "poslao" : "agencija"
+        }
+    ],
+    "blokiran_kupac" : 0,
+    "blokiran_vlasnik" : 0,
+    "vlasnik" : "steva",
+    "kupac" : "mire",
+    "idNekr" : 3,
+    "idPonude" : 1,
+    "neprocitano_kupac" : 1,
+    "neprocitano_vlasnik" : 0,
+    "odobreno_agent" : -1,
+    "odobreno_vlasnik" : 0,
+    "arhivirano_kupac" : 0,
+    "arhivirano_vlasnik" : 0,
+    "proc_agencije" : 0,
+    "id" : 9,
+    "__v" : 0,
+    "arhivirano" : 0,
+    "ponuda" : {
+        "datum_pocetka" : "2021-07-02",
+        "datum_kraja" : "2021-07-04",
+        "gotovina" : -1,
+        "cena" : 30.3333333333333
+    }
+}
+
+{
+    "poruke" : [ 
+        {
+            "idPoruke" : 1,
+            "tekst" : "Koliko je stan udaljen od Elektrotehnickog fakulteta?",
+            "poslao" : "jana",
+            "datum" : "28.6.2021 7:48:48"
+        }, 
+        {
+            "idPoruke" : 2,
+            "tekst" : "Pola sata gradskim prevozom, linija EKO 1. Pozdrav!",
+            "poslao" : "steva",
+            "datum" : "28.6.2021 7:50:23"
+        }
+    ],
+    "blokiran_kupac" : 0,
+    "blokiran_vlasnik" : 0,
+    "vlasnik" : "steva",
+    "kupac" : "jana",
+    "idNekr" : 3,
+    "idPonude" : -1,
+    "neprocitano_kupac" : 1,
+    "neprocitano_vlasnik" : 0,
+    "odobreno_agent" : 0,
+    "odobreno_vlasnik" : 0,
+    "arhivirano_kupac" : 0,
+    "arhivirano_vlasnik" : 0,
+    "proc_agencije" : 0,
+    "id" : 10,
+    "__v" : 0,
+    "arhivirano" : 0
+}

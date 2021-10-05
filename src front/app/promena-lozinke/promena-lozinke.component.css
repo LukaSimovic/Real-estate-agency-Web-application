@@ -1,0 +1,175 @@
+.levo{
+    height: 100%;
+    left: -5px;
+    width: 50px;
+    background-color: #262626; /* Black*/
+    position: fixed; /* Stay in place */
+    text-align: center;
+    text-decoration-style: solid;
+    padding-top: 60px; /* Place content 60px from the top */
+    font-size: 25px;
+    color: #f1f1f1;
+
+}
+
+
+.sidenav {
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 54px;
+    bottom:0px;
+    left: 0;
+    background-color: #262626; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 20px;
+
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav span{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+  }
+
+  .dropdown-btn, .dropbtn, .btnodjavi{
+    padding: 8px 8px 8px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover{
+    background-color: #808080;
+  }
+
+  .dropdown-btn:hover, .dropbtn:hover{
+    background-color: #808080;
+  }
+
+  
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 40px;
+    margin-left: 30px;
+  }
+
+
+  .sidenav .closebtn:hover{
+      background-color: #262626;
+      color:#f1f1f1;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding-left: 50px;
+    padding-top: 30px;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .dropdown-content {
+    display: none;
+    z-index: 1;
+    background-color: #262626;
+  }
+
+  .dropdown-content a {
+    padding: 8px 8px 8px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #808080;
+  }
+
+.promLoz{
+    border-radius: 25px;
+    border: 2px solid black;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    width: 300px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /*
+    background: rgb(150,98,185);
+    background: linear-gradient(90deg, rgba(150,98,185,1) 0%, rgba(142,172,189,1) 50%, rgba(194,151,219,1) 100%);
+    */
+    background: rgb(172,183,193);
+background: linear-gradient(90deg, rgba(172,183,193,1) 0%, rgba(158,144,173,1) 50%, rgba(160,183,185,1) 100%);
+}
+
+h2{
+    text-align: center;
+}
+
+.btnPromOtk{
+    text-align: center;
+
+}
+
+.btnProm{
+  font-weight: bolder;
+}
+
+.oko{
+    background-image: url('/../../assets/razno/oko.png');
+    width: 25px;
+    height: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: absolute;
+
+}
+
+input[type=password]{
+    width: 220px;
+}
+input[type=text]{
+    width: 220px;
+}
+
+.korlink{
+  font-weight: bolder;
+}
+
+.aktivan{
+  border-left: blue solid 5px;
+  border-right: blue solid 6px;
+}

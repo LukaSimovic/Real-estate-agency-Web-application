@@ -1,0 +1,1189 @@
+
+{
+    "id" : 1,
+    "naziv" : "prostran 3.0 stan u luksuznoj zgradi na Zvezdari",
+    "grad" : "Beograd",
+    "opstina" : "Zvezdara",
+    "adresa" : "Olge Jovanovic 20",
+    "kuca" : 0,
+    "sprat" : 4,
+    "broj_spratova" : 8,
+    "kvadratura" : 83,
+    "broj_soba" : "trosoban",
+    "namesten" : 1,
+    "galerija" : [ 
+        "zvezdara1.jpg", 
+        "zvezdara2.jpg", 
+        "zvezdara3.jpg"
+    ],
+    "videogalerija" : [
+	"s1.mp4"
+	],
+    "izdavanje" : 0,
+    "cena" : 110000,
+    "vlasnik" : "agencija",
+    "promovisano" : 1,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 1,
+    "broj_pregleda" : 4,
+    "posl_pregledi" : [ 
+        {
+            "vreme_pregleda" : "2021-06-27T09:13:26.162Z",
+            "korisnik" : "steva"
+        }, 
+        {
+            "vreme_pregleda" : "2021-06-27T10:28:42.451Z",
+            "korisnik" : "mire"
+        }, 
+        {
+            "vreme_pregleda" : "2021-06-27T10:33:35.807Z",
+            "korisnik" : "vule"
+        }
+    ]
+}
+
+{
+    "id" : 2,
+    "naziv" : "LUX 4.0 stan u Beogradu na vodi",
+    "grad" : "Beograd",
+    "opstina" : "Savski venac",
+    "adresa" : "Bulevar Vudroa Vilsona 2",
+    "kuca" : 0,
+    "sprat" : 12,
+    "broj_spratova" : 13,
+    "kvadratura" : 121,
+    "broj_soba" : "petosoban",
+    "namesten" : 0,
+    "galerija" : [ 
+        "h2o1.jpg", 
+        "h2o2.jpg", 
+        "h2o3.jpg"
+    ],
+    "videogalerija" : [
+	"s2.mp4"
+	],
+    "izdavanje" : 0,
+    "cena" : 200000,
+    "vlasnik" : "agencija",
+    "promovisano" : 1,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 2,
+    "posl_pregledi" : [ 
+        {
+            "vreme_pregleda" : "2021-06-27T09:32:49.577Z",
+            "korisnik" : "steva"
+        }, 
+        {
+            "vreme_pregleda" : "2021-06-27T09:37:15.911Z",
+            "korisnik" : "mire"
+        }
+    ]
+}
+
+{
+    "id" : 3,
+    "naziv" : "LUX 2.5 stan sa garazom u A bloku na Novom Beogradu",
+    "grad" : "Beograd",
+    "opstina" : "Novi Beograd",
+    "adresa" : "Omladinskih Brigada 162",
+    "kuca" : 0,
+    "sprat" : 3,
+    "broj_spratova" : 11,
+    "kvadratura" : 86,
+    "broj_soba" : "trosoban",
+    "namesten" : 1,
+    "galerija" : [ 
+        "ablok1.jpg", 
+        "ablok2.jpg", 
+        "ablok3.jpg"
+    ],
+    "videogalerija" : [
+	"s3.mp4"
+	],
+    "izdavanje" : 1,
+    "cena" : 455,
+    "vlasnik" : "steva",
+    "promovisano" : 1,
+    "odobreno" : 1,
+    "izdato" : [ 
+        {
+            "datum_pocetka" : "2021-07-01",
+            "datum_kraja" : "2021-07-04",
+            "cena" : 45.5
+        }
+    ],
+    "prodato" : 0,
+    "broj_pregleda" : 5,
+    "posl_pregledi" : [ 
+        {
+            "vreme_pregleda" : "2021-06-27T09:34:26.598Z",
+            "korisnik" : "steva"
+        }, 
+        {
+            "vreme_pregleda" : "2021-06-27T10:31:37.101Z",
+            "korisnik" : "mire"
+        }, 
+        {
+            "vreme_pregleda" : "2021-06-28T05:47:24.647Z",
+            "korisnik" : "vule"
+        }, 
+        {
+            "vreme_pregleda" : "2021-06-28T05:48:32.431Z",
+            "korisnik" : "jana"
+        }
+    ]
+}
+
+{
+    "id" : 4,
+    "naziv" : "Porodicna dvospratna kuca sa gradjevinskom dozvolom na Mirijevu",
+    "grad" : "Beograd",
+    "opstina" : "Zvezdara",
+    "adresa" : "Sejkina 8",
+    "kuca" : 1,
+    "sprat" : -1,
+    "broj_spratova" : 2,
+    "kvadratura" : 130,
+    "broj_soba" : "5",
+    "namesten" : 1,
+    "galerija" : [ 
+        "mirijevo1.jpg", 
+        "mirijevo2.jpg", 
+        "mirijevo3.jpg"
+    ],
+    "videogalerija" : [
+	"s4.mp4"
+	],
+    "izdavanje" : 0,
+    "cena" : 420000,
+    "vlasnik" : "agencija",
+    "promovisano" : 1,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 3,
+    "posl_pregledi" : [ 
+        {
+            "vreme_pregleda" : "2021-06-27T09:34:39.190Z",
+            "korisnik" : "steva"
+        }, 
+        {
+            "vreme_pregleda" : "2021-06-27T09:42:23.748Z",
+            "korisnik" : "mire"
+        }, 
+        {
+            "vreme_pregleda" : "2021-06-27T10:33:38.644Z",
+            "korisnik" : "vule"
+        }
+    ]
+}
+
+{
+    "id" : 5,
+    "naziv" : "Jednospratna kuca sa predivnim pogledom na Sumadiju",
+    "grad" : "Kragujevac",
+    "opstina" : "Stragari",
+    "adresa" : "Vuka Karadzica 17",
+    "kuca" : 1,
+    "sprat" : -1,
+    "broj_spratova" : 1,
+    "kvadratura" : 102,
+    "broj_soba" : "cetvorosobna",
+    "namesten" : 1,
+    "galerija" : [ 
+        "krag1.jpg", 
+        "krag2.jpg", 
+        "krag3.jpg", 
+        "krag4.jpg"
+    ],
+    "videogalerija" : [
+	"s5.mp4"
+	],
+    "izdavanje" : 1,
+    "cena" : 279,
+    "vlasnik" : "vule",
+    "promovisano" : 1,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 6,
+    "naziv" : "NOVOopremljeni stan u samom centru Nisa",
+    "grad" : "Nis",
+    "opstina" : "Medijana",
+    "adresa" : "Dusanova 26",
+    "kuca" : 0,
+    "sprat" : 3,
+    "broj_spratova" : 8,
+    "kvadratura" : 56,
+    "broj_soba" : "dvosoban",
+    "namesten" : 1,
+    "galerija" : [ 
+        "nis1.jpg", 
+        "nis2.jpg", 
+        "nis3.jpg", 
+        "nis4.jpg", 
+        "nis5.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 1,
+    "cena" : 275,
+    "vlasnik" : "agencija",
+    "promovisano" : 1,
+    "odobreno" : 1,
+    "izdato" : [ 
+        {
+            "datum_pocetka" : "2021-07-01",
+            "datum_kraja" : "2021-07-04",
+            "cena" : 27.5
+        }, 
+        {
+            "datum_pocetka" : "2021-07-08",
+            "datum_kraja" : "2021-07-11",
+            "cena" : 27.5
+        }, 
+        {
+            "datum_pocetka" : "2021-07-12",
+            "datum_kraja" : "2021-07-18",
+            "cena" : 55
+        }
+    ],
+    "prodato" : 0,
+    "broj_pregleda" : 4,
+    "posl_pregledi" : [ 
+        {
+            "vreme_pregleda" : "2021-06-28T05:32:53.557Z",
+            "korisnik" : "steva"
+        }, 
+        {
+            "vreme_pregleda" : "2021-06-28T05:33:51.749Z",
+            "korisnik" : "vule"
+        }, 
+        {
+            "vreme_pregleda" : "2021-06-28T05:34:16.609Z",
+            "korisnik" : "mire"
+        }, 
+        {
+            "vreme_pregleda" : "2021-06-28T05:34:43.304Z",
+            "korisnik" : "jana"
+        }
+    ]
+}
+
+{
+    "id" : 7,
+    "naziv" : "Napusten stan na prodaju - Borca greda",
+    "grad" : "Beograd",
+    "opstina" : "Palilula",
+    "adresa" : "Koste Manojlovica 17",
+    "kuca" : 0,
+    "sprat" : 2,
+    "broj_spratova" : 5,
+    "kvadratura" : 46,
+    "broj_soba" : "dvosoban",
+    "namesten" : 0,
+    "galerija" : [ 
+        "borca1.jpg", 
+        "borca2.jpg", 
+        "borca3.jpg"
+    ],
+    "videogalerija" : [ 
+        "s1.mp4",
+	"s2.mp4"
+    ],
+    "izdavanje" : 0,
+    "cena" : 60000,
+    "vlasnik" : "steva",
+    "promovisano" : 0,
+    "odobreno" : 0,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 8,
+    "galerija" : [ 
+        "sub1.jpeg", 
+        "sub2.jpg", 
+        "sub3.jpg", 
+        "sub4.jpg"
+    ],
+    "videogalerija" : [],
+    "naziv" : "Kuca sa bastom za porodicu u okolini Subotice",
+    "grad" : "Subotica",
+    "opstina" : "Palic",
+    "adresa" : "Nikole Jokica 15",
+    "kuca" : 1,
+    "sprat" : -1,
+    "broj_spratova" : 2,
+    "kvadratura" : 120,
+    "broj_soba" : "cetvoroiposobna",
+    "namesten" : 1,
+    "izdavanje" : 1,
+    "cena" : 900,
+    "vlasnik" : "mire",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 9,
+    "galerija" : [ 
+        "blok231.jpg", 
+        "blok232.jpg", 
+        "blok233.jpg"
+    ],
+    "videogalerija" : [],
+    "naziv" : "2.5 stan u bloku 23 uz autoput",
+    "grad" : "Beograd",
+    "opstina" : "Novi Beograd",
+    "adresa" : "Milutina Milankovica 88",
+    "kuca" : 0,
+    "sprat" : 6,
+    "broj_spratova" : 6,
+    "kvadratura" : 77,
+    "broj_soba" : "dvoiposoban",
+    "namesten" : 1,
+    "izdavanje" : 0,
+    "cena" : 110000,
+    "vlasnik" : "djetic",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 10,
+    "galerija" : [ 
+        "ledine1.jpg", 
+        "ledine2.jpg", 
+        "ledine3.jpg"
+    ],
+    "videogalerija" : [],
+    "naziv" : "Prelepa porodicna kuca sa dvoristem na Ledinama",
+    "grad" : "Beograd",
+    "opstina" : "Surcin",
+    "adresa" : "Kosovska 13",
+    "kuca" : 1,
+    "sprat" : -2,
+    "broj_spratova" : 1,
+    "kvadratura" : 90,
+    "broj_soba" : "trosoban",
+    "namesten" : 0,
+    "izdavanje" : 0,
+    "cena" : 300000,
+    "vlasnik" : "vule",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 11,
+    "galerija" : [ 
+        "kaludj1.jpg", 
+        "kaludj2.jpg", 
+        "kaludj3.jpg", 
+        "kaludj4.jpg"
+    ],
+    "videogalerija" : [],
+    "naziv" : "Cetvorosobna kuca sa dvoristem u Kaludjerici",
+    "grad" : "Beograd",
+    "opstina" : "Grocka",
+    "adresa" : "Trebinjska 7",
+    "kuca" : 1,
+    "sprat" : -2,
+    "broj_spratova" : 1,
+    "kvadratura" : 121,
+    "broj_soba" : "cetvorosobna",
+    "namesten" : 1,
+    "izdavanje" : 0,
+    "cena" : 500000,
+    "vlasnik" : "steva",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 12,
+    "galerija" : [ 
+        "vozd1.jpg", 
+        "vozd2.jpg", 
+        "vozd3.jpg"
+    ],
+    "videogalerija" : [],
+    "naziv" : "LUX stan u novootvorenom kompleksu PRO na Vozdvocu",
+    "grad" : "Beograd",
+    "opstina" : "Vozdovac",
+    "adresa" : "Brace Jerkovic 76",
+    "kuca" : 0,
+    "sprat" : 2,
+    "broj_spratova" : 7,
+    "kvadratura" : 90,
+    "broj_soba" : "troiposoban",
+    "namesten" : 1,
+    "izdavanje" : 0,
+    "cena" : 165000,
+    "vlasnik" : "steva",
+    "promovisano" : 0,
+    "odobreno" : 0,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 13,
+    "galerija" : [ 
+        "bar1.jpg", 
+        "bar2.jpg", 
+        "bar3.jpg"
+    ],
+    "videogalerija" : [],
+    "naziv" : "Akcija! Kuca sa bazenom za letnje uzivanje!",
+    "grad" : "Bar",
+    "opstina" : "Bar",
+    "adresa" : "Njegoseva 1",
+    "kuca" : 1,
+    "sprat" : -1,
+    "broj_spratova" : 1,
+    "kvadratura" : 90,
+    "broj_soba" : "trosobna",
+    "namesten" : 1,
+    "izdavanje" : 1,
+    "cena" : 190,
+    "vlasnik" : "djetic",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "galerija" : [ 
+        "st4.jpg", 
+        "st5.jpg", 
+        "st6.jpg"
+    ],
+    "videogalerija" : [ 
+    ],
+    "id" : 14,
+    "naziv" : "Prostran 4.0 stan u luksuznoj zgradi na Bezanijskoj kosi",
+    "grad" : "Beograd",
+    "opstina" : "Novi Beograd",
+    "adresa" : "Marka Celebonovica 32",
+    "kuca" : 0,
+    "sprat" : 3,
+    "broj_spratova" : 9,
+    "kvadratura" : 123,
+    "broj_soba" : "cetvorosoban",
+    "namesten" : 1,
+    "izdavanje" : 0,
+    "cena" : 205000,
+    "vlasnik" : "mire",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 15,
+    "galerija" : [ 
+        "st1.jpg", 
+        "st2.jpg", 
+        "st3.jpg"
+    ],
+    "videogalerija" : [],
+    "naziv" : "Stan 3.0 u novootvorenoj zgradi na Detelinari",
+    "grad" : "Novi Sad",
+    "opstina" : "Detelinara",
+    "adresa" : "Sarajevska 22",
+    "kuca" : 0,
+    "sprat" : 2,
+    "broj_spratova" : 5,
+    "kvadratura" : 92,
+    "broj_soba" : "trosoban",
+    "namesten" : 1,
+    "izdavanje" : 0,
+    "cena" : 120000,
+    "vlasnik" : "agencija",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 16,
+    "naziv" : "Jednosoban stan u centru Nisa",
+    "grad" : "Nis",
+    "opstina" : "Centar",
+    "adresa" : "Milutina Milankovica 6",
+    "kuca" : 0,
+    "sprat" : 2,
+    "broj_spratova" : 3,
+    "kvadratura" : 45,
+    "broj_soba" : "jednosoban",
+    "namesten" : 1,
+    "galerija" : [ 
+        "st7.jpg", 
+        "st9.jpg", 
+        "st8.jpg", 
+        "st10.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 1,
+    "cena" : 90,
+    "vlasnik" : "vule",
+    "promovisano" : 1,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 17,
+    "naziv" : "Novo! 2.5 stan u Petici na NBGD-u",
+    "grad" : "Beograd",
+    "opstina" : "Novi Beograd",
+    "adresa" : "Nehruova 34",
+    "kuca" : 0,
+    "sprat" : 4,
+    "broj_spratova" : 7,
+    "kvadratura" : 70,
+    "broj_soba" : "dvoiposoban",
+    "namesten" : 0,
+    "galerija" : [ 
+        "nst1.jpg", 
+        "nst2.jpg", 
+        "nst3.jpg", 
+        "nst4.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 0,
+    "cena" : 170000,
+    "vlasnik" : "mire",
+    "promovisano" : 1,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 18,
+    "naziv" : "Luksuzni 4.5 stan na Dedinju",
+    "grad" : "Beograd",
+    "opstina" : "Savski Venac",
+    "adresa" : "Mokranjceva 11",
+    "kuca" : 0,
+    "sprat" : 4,
+    "broj_spratova" : 4,
+    "kvadratura" : 130,
+    "broj_soba" : "cetvoroiposoban",
+    "namesten" : 1,
+    "galerija" : [ 
+        "st11.jpg", 
+        "st12.jpg", 
+        "st13.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 0,
+    "cena" : 320000,
+    "vlasnik" : "steva",
+    "promovisano" : 1,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 19,
+    "naziv" : "Idealan stan za cetvoroclanu porodicu u Velikom Gradistu",
+    "grad" : "Veliko Gradiste",
+    "opstina" : "Veliko Gradiste",
+    "adresa" : "Veljka Dugosevica 4",
+    "kuca" : 0,
+    "sprat" : 3,
+    "broj_spratova" : 5,
+    "kvadratura" : 80,
+    "broj_soba" : "troiposoban",
+    "namesten" : 1,
+    "galerija" : [ 
+        "st14.jpg", 
+        "st15.jpg", 
+        "st16.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 0,
+    "cena" : 10000,
+    "vlasnik" : "jana",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 20,
+    "naziv" : "Garsonjera na Banovom brdu",
+    "grad" : "Beograd",
+    "opstina" : "Cukarica",
+    "adresa" : "Pozeska 36",
+    "kuca" : 0,
+    "sprat" : 7,
+    "broj_spratova" : 11,
+    "kvadratura" : 25,
+    "broj_soba" : "garsonjera",
+    "namesten" : 1,
+    "galerija" : [ 
+        "st17.jpg", 
+        "st18.jpg", 
+        "st19.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 0,
+    "cena" : 40000,
+    "vlasnik" : "mire",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 21,
+    "naziv" : "2.5 stan sa prostranom terasom u Novom Sadu",
+    "grad" : "Novi Sad",
+    "opstina" : "Liman",
+    "adresa" : "Generala Zdanova 24",
+    "kuca" : 0,
+    "sprat" : 4,
+    "broj_spratova" : 6,
+    "kvadratura" : 62,
+    "broj_soba" : "dvoiposoban",
+    "namesten" : 1,
+    "galerija" : [ 
+        "st20.jpg", 
+        "st21.jpg", 
+        "st22.jpg", 
+        "st23.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 0,
+    "cena" : 89000,
+    "vlasnik" : "agencija",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 22,
+    "naziv" : "Stan u suterenu u bloku 45",
+    "grad" : "Beograd",
+    "opstina" : "Novi Beograd",
+    "adresa" : "Jurija Gagarina 245",
+    "kuca" : 0,
+    "sprat" : -1,
+    "broj_spratova" : 15,
+    "kvadratura" : 50,
+    "broj_soba" : "dvosoban",
+    "namesten" : 1,
+    "galerija" : [ 
+        "st24.jpg", 
+        "st25.jpg", 
+        "st26.jpg", 
+        "st27.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 0,
+    "cena" : 90000,
+    "vlasnik" : "mire",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 23,
+    "naziv" : "Jednospratna kuca na Vracaru",
+    "grad" : "Beograd",
+    "opstina" : "Vracar",
+    "adresa" : "Cerska 127",
+    "kuca" : 1,
+    "sprat" : -2,
+    "broj_spratova" : 1,
+    "kvadratura" : 86,
+    "broj_soba" : "trosobna",
+    "namesten" : 1,
+    "galerija" : [ 
+        "k1.jpg", 
+        "kuca1.jpg", 
+        "kuca2.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 0,
+    "cena" : 140000,
+    "vlasnik" : "agencija",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 24,
+    "naziv" : "Vikendica na Fruskoj Gori",
+    "grad" : "Vrdnik",
+    "opstina" : "Vrdnik",
+    "adresa" : "Zapadna 8a",
+    "kuca" : 1,
+    "sprat" : -2,
+    "broj_spratova" : 2,
+    "kvadratura" : 130,
+    "broj_soba" : "petosobna",
+    "namesten" : 1,
+    "galerija" : [ 
+        "k2.jpg", 
+        "kuca3.jpg", 
+        "kuca4.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 1,
+    "cena" : 350,
+    "vlasnik" : "agencija",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 25,
+    "naziv" : "Luksuzna i prostrana kuca u Valjevu",
+    "grad" : "Valjevo",
+    "opstina" : "Valjevo",
+    "adresa" : "Moravska 14",
+    "kuca" : 1,
+    "sprat" : -2,
+    "broj_spratova" : 2,
+    "kvadratura" : 145,
+    "broj_soba" : "sestosobna",
+    "namesten" : 1,
+    "galerija" : [ 
+        "k21.jpg", 
+        "kuca5.jpg", 
+        "kuca6.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 0,
+    "cena" : 280000,
+    "vlasnik" : "dodo",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 26,
+    "naziv" : "Porodicna kuca u mirnom naselju",
+    "grad" : "Beograd",
+    "opstina" : "Novi Beograd",
+    "adresa" : "Vinogradska 89",
+    "kuca" : 1,
+    "sprat" : -2,
+    "broj_spratova" : 2,
+    "kvadratura" : 100,
+    "broj_soba" : "cetvoroiposobna",
+    "namesten" : 1,
+    "galerija" : [ 
+        "k22.jpg", 
+        "kuca7.jpg", 
+        "kuca8.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 0,
+    "cena" : 240000,
+    "vlasnik" : "ivana",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 27,
+    "naziv" : "Kuca za zurke i proslave u okolini Nisa",
+    "grad" : "Nis",
+    "opstina" : "Merosina",
+    "adresa" : "Gorska 31",
+    "kuca" : 1,
+    "sprat" : -2,
+    "broj_spratova" : 1,
+    "kvadratura" : 64,
+    "broj_soba" : "trosobna",
+    "namesten" : 1,
+    "galerija" : [ 
+        "k11.jpg", 
+        "kuca9.jpg", 
+        "kuca10.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 1,
+    "cena" : 120,
+    "vlasnik" : "vule",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 28,
+    "naziv" : "Kuca sa prelepim dvoristem u Novom Sadu",
+    "grad" : "Novi Sad",
+    "opstina" : "Detelinara",
+    "adresa" : "Sabacka 40",
+    "kuca" : 1,
+    "sprat" : -2,
+    "broj_spratova" : 2,
+    "kvadratura" : 110,
+    "broj_soba" : "petosobna",
+    "namesten" : 1,
+    "galerija" : [ 
+        "k23.jpg", 
+        "kuc10.jpg", 
+        "kuc11.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 0,
+    "cena" : 200000,
+    "vlasnik" : "steva",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 29,
+    "naziv" : "Kuca sa bastom u Srbinju",
+    "grad" : "Foca",
+    "opstina" : "Foca",
+    "adresa" : "Urosevska 22",
+    "kuca" : 1,
+    "sprat" : -2,
+    "broj_spratova" : 1,
+    "kvadratura" : 70,
+    "broj_soba" : "trosobna",
+    "namesten" : 1,
+    "galerija" : [ 
+        "k12.jpg", 
+        "kuc12.jpg", 
+        "kuc13.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 1,
+    "cena" : 110000,
+    "vlasnik" : "caki",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 30,
+    "naziv" : "Luksuzna kuca sa dvoristem na obodu Bijeljine",
+    "grad" : "Bijeljina",
+    "opstina" : "Bijeljina",
+    "adresa" : "Focanska 16",
+    "kuca" : 1,
+    "sprat" : -2,
+    "broj_spratova" : 2,
+    "kvadratura" : 160,
+    "broj_soba" : "sedmosobna",
+    "namesten" : 1,
+    "galerija" : [ 
+        "k24.jpg", 
+        "kuc14.jpg", 
+        "kuc15.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 0,
+    "cena" : 320000,
+    "vlasnik" : "zeks",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 31,
+    "naziv" : "Jednospratna kuca u MML-u",
+    "grad" : "Beograd",
+    "opstina" : "Zvezdara",
+    "adresa" : "Partizanska 15",
+    "kuca" : 1,
+    "sprat" : -2,
+    "broj_spratova" : 1,
+    "kvadratura" : 81,
+    "broj_soba" : "troiposobna",
+    "namesten" : 1,
+    "galerija" : [ 
+        "k13.jpg", 
+        "kuc16.jpg", 
+        "kuc17.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 0,
+    "cena" : 135000,
+    "vlasnik" : "mire",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 32,
+    "naziv" : "Jednospratna kuca za studente u Nisu",
+    "grad" : "Nis",
+    "opstina" : "Crveni krst",
+    "adresa" : "Beogradska 95",
+    "kuca" : 1,
+    "sprat" : -2,
+    "broj_spratova" : 1,
+    "kvadratura" : 80,
+    "broj_soba" : "trosobna",
+    "namesten" : 1,
+    "galerija" : [ 
+        "k15.jpg", 
+        "kuc20.jpg", 
+        "kuc21.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 1,
+    "cena" : 120,
+    "vlasnik" : "caki",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 33,
+    "naziv" : "Kuca na dva sprata u mirnom okruzenju na Detelinari",
+    "grad" : "Novi Sad",
+    "opstina" : "Detelinara",
+    "adresa" : "Dunavska 20",
+    "kuca" : 1,
+    "sprat" : -2,
+    "broj_spratova" : 2,
+    "kvadratura" : 115,
+    "broj_soba" : "petoiposobna",
+    "namesten" : 1,
+    "galerija" : [ 
+        "k25.jpg", 
+        "kuc22.jpg", 
+        "kuc23.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 1,
+    "cena" : 280,
+    "vlasnik" : "zeks",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 34,
+    "naziv" : "Trospratna luksuzna kuca u Valjevu",
+    "grad" : "Valjevo",
+    "opstina" : "Valjevo",
+    "adresa" : "Kraljice Marije 24",
+    "kuca" : 1,
+    "sprat" : -2,
+    "broj_spratova" : 3,
+    "kvadratura" : 330,
+    "broj_soba" : "desetosobna",
+    "namesten" : 1,
+    "galerija" : [ 
+        "k3.jpg", 
+        "kuc24.jpg", 
+        "kuc25.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 1,
+    "cena" : 199,
+    "vlasnik" : "dodo",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 35,
+    "naziv" : "Novoizgradjena kuca u Obrenovcu",
+    "grad" : "Beograd",
+    "opstina" : "Obrenovac",
+    "adresa" : "Milosa Obrenovica 13a",
+    "kuca" : 1,
+    "sprat" : -2,
+    "broj_spratova" : 1,
+    "kvadratura" : 86,
+    "broj_soba" : "troiposobna",
+    "namesten" : 0,
+    "galerija" : [ 
+        "nkuc1.jpg", 
+        "nkuc2.jpg", 
+        "nkuc3.jpg", 
+        "nkuc4.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 0,
+    "cena" : 130000,
+    "vlasnik" : "dodo",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 36,
+    "naziv" : "4.0 LUX stan u novoizgradjenoj zgradi u Zemunu",
+    "grad" : "Beograd",
+    "opstina" : "Zemun",
+    "adresa" : "Trscanska 13",
+    "kuca" : 0,
+    "sprat" : 5,
+    "broj_spratova" : 5,
+    "kvadratura" : 100,
+    "broj_soba" : "petosoban",
+    "namesten" : 0,
+    "galerija" : [ 
+        "nst5.jpg", 
+        "nst6.jpg", 
+        "nst7.jpg", 
+        "nst8.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 0,
+    "cena" : 260000,
+    "vlasnik" : "vule",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}
+
+{
+    "id" : 37,
+    "naziv" : "Jednospratna kuca za izdavanje u blizini centra",
+    "grad" : "Beograd",
+    "opstina" : "Vracar",
+    "adresa" : "Batutova 80",
+    "kuca" : 1,
+    "sprat" : -2,
+    "broj_spratova" : 1,
+    "kvadratura" : 67,
+    "broj_soba" : "dvosobna",
+    "namesten" : 1,
+    "galerija" : [ 
+        "k14.jpg", 
+        "kuc18.jpg", 
+        "kuc19.jpg"
+    ],
+    "videogalerija" : [],
+    "izdavanje" : 1,
+    "cena" : 185,
+    "vlasnik" : "agencija",
+    "promovisano" : 0,
+    "odobreno" : 1,
+    "izdato" : [],
+    "prodato" : 0,
+    "broj_pregleda" : 0,
+    "posl_pregledi" : []
+}

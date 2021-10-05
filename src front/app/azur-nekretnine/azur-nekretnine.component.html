@@ -1,0 +1,251 @@
+<div id="mySidenav2" class="sidenav" *ngIf='korisnik.tip=="ag"'>
+    <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+    <a routerLink="/azuriranjeKorisnika/1" class="korlink">
+      <img src='/../../assets/korisnici/{{korisnik.slika}}' width="30px" height="30px">&nbsp;&nbsp;{{korisnik.korisnicko_ime}}
+    </a>
+    <a routerLink="/grafikoni">
+      <img src='/../../assets/razno/homeicon.png' width="15px" height="15px">&nbsp;&nbsp;Pocetna
+    </a>
+    <div class="dropdown">
+      <a class='dropbtn' (click)='prikaziDropdownMeniNekr()'>
+        <img src='/../../assets/razno/nekricon.jpg' width="15px" height="15px">&nbsp;&nbsp;Nekretnine
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src='/../../assets/razno/da.png' width="15px" height="15px">
+      </a>
+      <div class="dropdown-content" id='dropdownCont4'>
+        <a routerLink='/zahteviNekretnina'>&nbsp;&nbsp;&nbsp;Zahtevi za odobravanje</a>
+        <a routerLink='/mojeNekretnine' class='aktivan'>&nbsp;&nbsp;&nbsp;Nekretnine agencije</a>
+        <a routerLink='/dodajNekretninu'>&nbsp;&nbsp;&nbsp;Dodaj nekretninu</a>
+        <a routerLink='/pretraga'>&nbsp;&nbsp;&nbsp;Pregled i pretraga</a>
+        <a routerLink='/promovisanje'>&nbsp;&nbsp;&nbsp;Promovisanje nekretnina</a>
+      </div>
+    </div>
+    <a routerLink="/ugovoreneProdaje">
+      <img src='/../../assets/razno/saleicon.png' width="15px" height="15px">&nbsp;&nbsp;Ugovorene prodaje
+    </a>
+    <a routerLink="/inbox">
+        <img src='/../../assets/razno/inboxicon.png' width="15px" height="15px">&nbsp;&nbsp;Inbox
+      </a>
+    <div class="dropdown">
+        <a class='dropbtn' (click)='prikaziDropdownMeniPod()'>
+          <img src='/../../assets/razno/setticon.png' width="15px" height="15px">&nbsp;&nbsp;Podesavanja 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img src='/../../assets/razno/da.png' width="15px" height="15px">
+        </a>
+        <div class="dropdown-content" id="dropdownCont2">
+            <a routerLink="/azuriranjeKorisnika/1">&nbsp;&nbsp;&nbsp;Azuriranje podataka</a>
+            <a routerLink="/promenaLozinke/1">&nbsp;&nbsp;&nbsp;Promena lozinke</a>
+        </div>
+    </div>
+      <span>
+      <a (click)='odjaviSe()' >
+        <img src='/../../assets/razno/logouticon.png' width="15px" height="15px">&nbsp;&nbsp;Odjavi se
+      </a>
+    </span>
+  </div>
+
+<div id="mySidenav" class="sidenav" *ngIf='korisnik.tip=="reg"'>
+  <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+  <a routerLink="/azuriranjeKorisnika/1" class="korlink">
+      <img src='/../../assets/korisnici/{{korisnik.slika}}' width="30px" height="30px">&nbsp;&nbsp;{{korisnik.korisnicko_ime}}
+    </a>
+  <a routerLink="/pretraga">
+    <img src='/../../assets/razno/homeicon.png' width="15px" height="15px">&nbsp;&nbsp;Pocetna
+  </a>
+  <div class="dropdown">
+    <a class='dropbtn' (click)='prikaziDropdownMeniNekr()'>
+      <img src='/../../assets/razno/nekricon.jpg' width="15px" height="15px">&nbsp;&nbsp;Nekretnine
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src='/../../assets/razno/da.png' width="15px" height="15px">
+    </a>
+    <div class="dropdown-content" id='dropdownCont4'>
+      <a routerLink="/mojeNekretnine"  class='aktivan'>&nbsp;&nbsp;&nbsp;Moje nekretnine</a>
+      <a routerLink='/dodajNekretninu'>&nbsp;&nbsp;&nbsp;Dodaj nekretninu</a>
+    </div>
+  </div>
+  <a>
+    <img src='/../../assets/razno/inboxicon.png' width="15px" height="15px">&nbsp;&nbsp;Inbox
+  </a>
+  <div class="dropdown">
+      <a class='dropbtn' (click)='prikaziDropdownMeniPod()'>
+        <img src='/../../assets/razno/setticon.png' width="15px" height="15px">&nbsp;&nbsp;Podesavanja 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src='/../../assets/razno/da.png' width="15px" height="15px">
+      </a>
+      <div class="dropdown-content" id="dropdownCont2">
+        <a routerLink='/azuriranjeKorisnika/1'>&nbsp;&nbsp;&nbsp;Azuriranje podataka</a>
+        <a routerLink="/promenaLozinke/1">&nbsp;&nbsp;&nbsp;Promena lozinke</a>
+      </div>
+  </div>
+    <span>
+    <a (click)='odjaviSe()' >
+      <img src='/../../assets/razno/logouticon.png' width="15px" height="15px">&nbsp;&nbsp;Odjavi se
+    </a>
+  </span>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<div class="levo">
+<span (click)="openNav()">&#9776;</span>
+</div>
+
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+  <div class='formWrapper'>
+  <div class='izmNekrForm'>
+      <h3>Azuriranje nekretnine</h3>
+      <form ngNativeValidate #inForm>
+        <table border=1>
+            <tr>
+                <td>Naziv:</td>
+                <td>
+                    <div *ngIf='!stiklirano[0]'>{{nekretnina.naziv}}</div>
+                    <div *ngIf='stiklirano[0]'><input type='text' name="inpNaziv" [(ngModel)]="noviPodaci[0]" required></div>
+                </td>
+                <td><input type="checkbox" name="izm0" [(ngModel)]="stiklirano[0]" (click)="klikCB(0)">Izmeni</td>
+            </tr>
+            <tr>
+                <td>Grad:</td>
+                <td>
+                    <div *ngIf='!stiklirano[1]'>{{nekretnina.grad}}</div>
+                    <div *ngIf='stiklirano[1]'><input type='text' name="inpGrad" [(ngModel)]="noviPodaci[1]" required></div>
+                </td>
+                <td><input type="checkbox"  name="izm1" [(ngModel)]="stiklirano[1]" (click)="klikCB(1)">Izmeni</td>
+            </tr>
+            <tr>
+                <td>Opstina:</td>
+                <td>
+                    <div *ngIf='!stiklirano[2]'>{{nekretnina.opstina}}</div>
+                    <div *ngIf='stiklirano[2]'><input type='text' name="inpOpstina" [(ngModel)]="noviPodaci[2]" required></div>
+                </td>
+                <td><input type="checkbox"  name="izm2" [(ngModel)]="stiklirano[2]" (click)="klikCB(2)">Izmeni</td>
+            </tr>
+            <tr>
+              <td>Adresa:</td>
+              <td>
+                  <div *ngIf='!stiklirano[3]'>{{nekretnina.adresa}}</div>
+                  <div *ngIf='stiklirano[3]'><input type='text' name="inpAdresa" [(ngModel)]="noviPodaci[3]" required></div>
+              </td>
+              <td><input type="checkbox"  name="izm2" [(ngModel)]="stiklirano[3]" (click)="klikCB(3)">Izmeni</td>
+            </tr>
+            <tr>
+              <td>Tip:</td>
+              <td>
+                  <div *ngIf='!stiklirano[4]'>{{nekretnina.kucastanStr}}</div>
+                  <div *ngIf='stiklirano[4]'>
+                      <input type='radio' name="inpTip" [(ngModel)]="noviPodaci[4]" value="1">Kuca
+                      <input type='radio' name="inpTip" [(ngModel)]="noviPodaci[4]" value="0">Stan
+
+                  </div>
+              </td>
+              <td><input type="checkbox" name="izm4" [(ngModel)]="stiklirano[4]" (click)="klikCB(4)">Izmeni</td>
+          </tr>
+          <tr *ngIf='noviPodaci[4]=="0"'>
+              <td>Sprat:</td>
+              <td>
+                  <div *ngIf='!stiklirano[5]'>{{nekretnina.sprat}}</div>
+                  <div *ngIf='stiklirano[5]'><input type='text' name="inpSprat" [(ngModel)]="noviPodaci[5]" required pattern="^(-?\d+)$"></div>
+              </td>
+              <td><input type="checkbox"  name="izm5" [(ngModel)]="stiklirano[5]" (click)="klikCB(5)">Izmeni</td>
+          </tr>
+          <tr *ngIf='noviPodaci[4]=="0"'>
+              <td>Broj spratova u zgradi:</td>
+              <td>
+                  <div *ngIf='!stiklirano[6]'>{{nekretnina.broj_spratova}}</div>
+                  <div *ngIf='stiklirano[6]'><input type='text' name="inpbrspr" [(ngModel)]="noviPodaci[6]" required pattern="^(\d+)$"></div>
+              </td>
+              <td><input type="checkbox"  name="izm6" [(ngModel)]="stiklirano[6]" (click)="klikCB(6)">Izmeni</td>
+          </tr>
+          <tr *ngIf='noviPodaci[4]=="1"'>
+            <td>Broj spratova kuće:</td>
+            <td>
+                <div *ngIf='!stiklirano[6]'>{{nekretnina.broj_spratova}}</div>
+                <div *ngIf='stiklirano[6]'><input type='text' name="inpbrspr2" [(ngModel)]="noviPodaci[6]" required  pattern="^(\d+)$"></div>
+            </td>
+            <td><input type="checkbox"  name="izm66" [(ngModel)]="stiklirano[6]" (click)="klikCB(6)">Izmeni</td>
+          </tr>
+          <tr>
+              <td>Kvadratura:</td>
+              <td>
+                  <div *ngIf='!stiklirano[7]'>{{nekretnina.kvadratura}}</div>
+                  <div *ngIf='stiklirano[7]'><input type='text' name="inpkv" [(ngModel)]="noviPodaci[7]" required  pattern="^(\d+)$"></div>
+              </td>
+              <td><input type="checkbox" name="izm7" [(ngModel)]="stiklirano[7]" (click)="klikCB(7)">Izmeni</td>
+          </tr>
+          <tr>
+              <td>Broj soba:</td>
+              <td>
+                  <div *ngIf='!stiklirano[8]'>{{nekretnina.broj_soba}}</div>
+                  <div *ngIf='stiklirano[8]'><input type='text' name="inpbrso" [(ngModel)]="noviPodaci[8]" required></div>
+              </td>
+              <td><input type="checkbox"  name="izm8" [(ngModel)]="stiklirano[8]" (click)="klikCB(8)">Izmeni</td>
+          </tr>
+          <tr>
+              <td>Cena:</td>
+              <td>
+                  <div *ngIf='!stiklirano[9]'>{{nekretnina.cena}}</div>
+                  <div *ngIf='stiklirano[9]'><input type='text' name="inpc" [(ngModel)]="noviPodaci[9]" required  pattern="^(\d+)$"></div>
+              </td>
+              <td><input type="checkbox"  name="izm9" [(ngModel)]="stiklirano[9]" (click)="klikCB(9)">Izmeni</td>
+          </tr>
+          <tr>
+            <td>Vrsta usluge:</td>
+            <td>
+                <div *ngIf='!stiklirano[10]'>{{nekretnina.izdajeprodajeStr}}</div>
+                <div *ngIf='stiklirano[10]'>
+                  <input type='radio' name="inpvr" [(ngModel)]="noviPodaci[10]" value="1">Izdavanje
+                  <input type='radio' name="inpvr" [(ngModel)]="noviPodaci[10]" value="0">Prodaja
+                  </div>
+              </td>
+              <td><input type="checkbox" name="izm10" [(ngModel)]="stiklirano[10]" (click)="klikCB(10)">Izmeni</td>
+          </tr>
+          <tr>
+              <td>Namesten:</td>
+              <td>
+                  <div *ngIf='!stiklirano[11]'>{{nekretnina.namestenStr}}</div>
+                  <div *ngIf='stiklirano[11]'><input type='checkbox' name="inpnam" [(ngModel)]="namestenB" (click)='cbNam()'>Namesten</div>
+              </td>
+              <td><input type="checkbox" name="izm11" [(ngModel)]="stiklirano[11]" (click)="klikCB(11)">Izmeni</td>
+          </tr>
+          <tr>
+              <td>
+                  <div *ngIf='!stiklirano[12]'>Dodaj sliku/video:</div>
+                  <div *ngIf='stiklirano[12]'>
+                      <input type="button" id="loadFileXml" value="Izaberi fajlove" onclick="document.getElementById('images').click();" />
+                      <input type="file" style="display:none;" id="images" name="images" multiple  (change)="selectMultipleImages($event)"/>
+                  </div>
+              </td>
+              <td>
+                  <div *ngIf='!stiklirano[12]'>
+                      <ul>
+                          <li *ngFor='let g of nekretnina.galerija'>{{g}}</li>
+                          <li *ngFor='let v of nekretnina.videogalerija'>{{v}}</li>
+                      </ul>
+                  </div>
+                  <div *ngIf='stiklirano[12]'>
+                      <ul>
+                          <li *ngFor='let g of noviPodaciFajloviSlike'>{{g}}</li>
+                          <li *ngFor='let v of noviPodaciFajloviVideo'>{{v}}</li>
+                      </ul>
+                  </div>
+                      
+              </td>
+              <td><input type="checkbox"  name="izm12" [(ngModel)]="stiklirano[12]" (click)="klikCB(12)">Izmeni</td>
+          </tr>
+        </table>
+        <br/>
+        <button name="submit" class="sacprom" type="submit" (click)="inForm.checkValidity()? sacuvajPromene() : null">
+            Sacuvajte promene
+        </button>&nbsp;&nbsp;
+        <button routerLink="/mojeNekretnine" class="btnIspod">Otkazi - Nazad na moje nekretnine</button>
+
+       
+        </form>
+        
+      </div>
+     
+  </div>
+      <notifier-container></notifier-container>
+
+</div>

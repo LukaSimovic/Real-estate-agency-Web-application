@@ -1,0 +1,284 @@
+<div id="mySidenav4" class="sidenav" *ngIf='ulogGost==3'>
+    <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+    <a routerLink="/azuriranjeKorisnika/1" class="korlink">
+      <img src='/../../assets/korisnici/{{korisnik.slika}}' width="30px" height="30px">&nbsp;&nbsp;{{korisnik.korisnicko_ime}}
+    </a>
+    <a routerLink="/grafikoni">
+      <img src='/../../assets/razno/homeicon.png' width="15px" height="15px">&nbsp;&nbsp;Pocetna
+    </a>
+    <div class="dropdown">
+      <a class='dropbtn' (click)='prikaziDropdownMeniNekr()'>
+        <img src='/../../assets/razno/nekricon.jpg' width="15px" height="15px">&nbsp;&nbsp;Nekretnine
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src='/../../assets/razno/da.png' width="15px" height="15px">
+      </a>
+      <div class="dropdown-content" id='dropdownCont4'>
+        <a routerLink='/zahteviNekretnina'>&nbsp;&nbsp;&nbsp;Zahtevi za odobravanje</a>
+        <a routerLink='/mojeNekretnine'>&nbsp;&nbsp;&nbsp;Nekretnine agencije</a>
+        <a routerLink='/dodajNekretninu'>&nbsp;&nbsp;&nbsp;Dodaj nekretninu</a>
+        <a routerLink='/pretraga' class='aktivan'>&nbsp;&nbsp;&nbsp;Pregled i pretraga</a>
+        <a routerLink='/promovisanje'>&nbsp;&nbsp;&nbsp;Promovisanje nekretnina</a>
+      </div>
+    </div>
+    <a routerLink="/ugovoreneProdaje">
+      <img src='/../../assets/razno/saleicon.png' width="15px" height="15px">&nbsp;&nbsp;Ugovorene prodaje
+    </a>
+    <a routerLink="/inbox">
+        <img src='/../../assets/razno/inboxicon.png' width="15px" height="15px">&nbsp;&nbsp;Inbox
+      </a>
+    <div class="dropdown">
+        <a class='dropbtn' (click)='prikaziDropdownMeniPod()'>
+          <img src='/../../assets/razno/setticon.png' width="15px" height="15px">&nbsp;&nbsp;Podesavanja 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img src='/../../assets/razno/da.png' width="15px" height="15px">
+        </a>
+        <div class="dropdown-content" id="dropdownCont2">
+            <a routerLink="/azuriranjeKorisnika/1">&nbsp;&nbsp;&nbsp;Azuriranje podataka</a>
+            <a routerLink="/promenaLozinke/1">&nbsp;&nbsp;&nbsp;Promena lozinke</a>
+        </div>
+    </div>
+      <span>
+      <a (click)='odjaviSe()' >
+        <img src='/../../assets/razno/logouticon.png' width="15px" height="15px">&nbsp;&nbsp;Odjavi se
+      </a>
+    </span>
+  </div>
+  
+  <div id="mySidenav3" class="sidenav" *ngIf='ulogGost==2'>
+    <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+    <a routerLink="/azuriranjeKorisnika/1" class="korlink">
+      <img src='/../../assets/korisnici/{{korisnik.slika}}' width="30px" height="30px">&nbsp;&nbsp;{{korisnik.korisnicko_ime}}
+    </a>
+    <a routerLink="/grafikoni">
+      <img src='/../../assets/razno/homeicon.png' width="15px" height="15px">&nbsp;&nbsp;Pocetna
+    </a>
+    <div class="dropdown">
+      <a class='dropbtn' (click)='prikaziDropdownMeniZaht()'>
+        <img src='/../../assets/razno/yesnoicon.png' width="15px" height="15px">&nbsp;&nbsp;Zahtevi
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+        <img src='/../../assets/razno/da.png' width="15px" height="15px">
+      </a>
+      <div class="dropdown-content" id='dropdownCont'>
+        <a routerLink="/zahteviKorisnik" >&nbsp;&nbsp;&nbsp;Za odobravanje korisnika</a>
+        <a routerLink='/zahteviNekretnina'>&nbsp;&nbsp;&nbsp;Za odobravanje nekretnina</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <a class='dropbtn' (click)='prikaziDropdownMeniKor()'>
+        <img src='/../../assets/razno/usericon.png' width="15px" height="15px">&nbsp;&nbsp;Korisnici
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src='/../../assets/razno/da.png' width="15px" height="15px">
+      </a>
+      <div class="dropdown-content" id='dropdownCont3'>
+        <a routerLink="/pregledKorisnika" >&nbsp;&nbsp;&nbsp;Pregled i izmena korisnika</a>
+        <a routerLink='/signup'>&nbsp;&nbsp;&nbsp;Dodaj korisnika</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <a class='dropbtn' (click)='prikaziDropdownMeniNekr()'>
+        <img src='/../../assets/razno/nekricon.jpg' width="15px" height="15px">&nbsp;&nbsp;Nekretnine
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src='/../../assets/razno/da.png' width="15px" height="15px">
+      </a>
+      <div class="dropdown-content" id='dropdownCont4'>
+        <a routerLink="/pretraga" class='aktivan'>&nbsp;&nbsp;&nbsp;Pregled i pretraga</a>
+        <a routerLink='/dodajNekretninu'>&nbsp;&nbsp;&nbsp;Dodaj nekretninu</a>
+      </div>
+    </div>
+    <a routerLink="/ugovoreneProdaje">
+      <img src='/../../assets/razno/saleicon.png' width="15px" height="15px">&nbsp;&nbsp;Ugovorene prodaje
+    </a>
+    <div class="dropdown">
+        <a class='dropbtn' (click)='prikaziDropdownMeniPod()'>
+          <img src='/../../assets/razno/setticon.png' width="15px" height="15px">&nbsp;&nbsp;Podesavanja 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img src='/../../assets/razno/da.png' width="15px" height="15px">
+        </a>
+        <div class="dropdown-content" id="dropdownCont2">
+          <a routerLink="/azuriranjeKorisnika/1">&nbsp;&nbsp;&nbsp;Azuriranje podataka</a>
+          <a routerLink="/promenaLozinke/1">&nbsp;&nbsp;&nbsp;Promena lozinke</a>
+        </div>
+    </div>
+      <span>
+      <a (click)='odjaviSe()' >
+        <img src='/../../assets/razno/logouticon.png' width="15px" height="15px">&nbsp;&nbsp;Odjavi se
+      </a>
+    </span>
+  </div>
+  
+  <div *ngIf='ulogGost==1' id="mySidenav" class="sidenav"> 
+      <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+      <a routerLink="/azuriranjeKorisnika/1" class="korlink">
+        <img src='/../../assets/korisnici/{{korisnik.slika}}' width="30px" height="30px">&nbsp;&nbsp;{{korisnik.korisnicko_ime}}
+      </a>
+      <a routerLink="/pretraga" class='aktivan'>
+        <img src='/../../assets/razno/homeicon.png' width="15px" height="15px">&nbsp;&nbsp;Pocetna
+      </a>
+      <div class="dropdown">
+        <a class='dropbtn' (click)='prikaziDropdownMeniNekr()'>
+          <img src='/../../assets/razno/nekricon.jpg' width="15px" height="15px">&nbsp;&nbsp;Nekretnine
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img src='/../../assets/razno/da.png' width="15px" height="15px">
+        </a>
+        <div class="dropdown-content" id='dropdownCont4'>
+          <a routerLink="/mojeNekretnine" >&nbsp;&nbsp;&nbsp;Moje nekretnine</a>
+          <a routerLink='/dodajNekretninu'>&nbsp;&nbsp;&nbsp;Dodaj nekretninu</a>
+        </div>
+      </div>
+      <a routerLink='/inbox'>
+        <img src='/../../assets/razno/inboxicon.png' width="15px" height="15px">&nbsp;&nbsp;Inbox
+      </a>
+      <div class="dropdown">
+          <a class='dropbtn' (click)='prikaziDropdownMeniPod()'>
+            <img src='/../../assets/razno/setticon.png' width="15px" height="15px">&nbsp;&nbsp;Podesavanja 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src='/../../assets/razno/da.png' width="15px" height="15px">
+          </a>
+          <div class="dropdown-content" id="dropdownCont2">
+            <a routerLink='/azuriranjeKorisnika/1'>&nbsp;&nbsp;&nbsp;Azuriranje podataka</a>
+            <a routerLink="/promenaLozinke/1">&nbsp;&nbsp;&nbsp;Promena lozinke</a>
+          </div>
+      </div>
+        <span>
+        <a (click)='odjaviSe()' >
+          <img src='/../../assets/razno/logouticon.png' width="15px" height="15px">&nbsp;&nbsp;Odjavi se
+        </a>
+      </span>
+  </div>
+  
+  <div *ngIf='ulogGost==0' id="mySidenav2" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+    <a routerLink="/pretraga" class='aktivan'>
+      <img src='/../../assets/razno/homeicon.png' width="15px" height="15px">&nbsp;&nbsp;Pocetna
+    </a>
+    <div class="dropdown">
+        <a class='dropbtn' (click)='prikaziDropdownMeniPod()'>
+          <img src='/../../assets/razno/Xicon.png' width="15px" height="15px">&nbsp;&nbsp;Niste prijavljeni 
+          <img src='/../../assets/razno/da.png' width="15px" height="15px">
+        </a>
+        <div class="dropdown-content" id="dropdownCont2">
+          <a (click)='odjaviSe()'>&nbsp;&nbsp;&nbsp;Prijavite se</a>
+          <a (click)="registrujSe()">&nbsp;&nbsp;&nbsp;Registrujte se</a>
+        </div>
+    </div>
+      <span>
+      <a (click)='odjaviSe()' >
+        <img src='/../../assets/razno/logouticon.png' width="15px" height="15px">&nbsp;&nbsp;Izlaz
+      </a>
+    </span>
+  
+  </div>
+    
+    <!-- Use any element to open the sidenav -->
+    <div  class="levo" >
+    <span (click)="openNav()">&#9776;</span>
+    </div>
+  
+    
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="main">
+      <div class="promovisano">
+        <h3>Promovisane nekretnine</h3>
+        <div *ngIf='brPromNekr==0' class="galerija0">
+          Trenutno nema promovisanih nekretnina!
+        </div>
+        <div *ngIf='brPromNekr==1' class="galerija1">
+            <img src="/../assets/nekretnine/{{promNekrSlike[0]}}" (click)=' klikProm(0)' width="150px" height="100px" >
+        </div>
+        <div *ngIf='brPromNekr==2' class="galerija2">
+            <img src="/../assets/nekretnine/{{promNekrSlike[0]}}" width="150px" height="100px" (click)=' klikProm(0)'>
+            <img src="/../assets/nekretnine/{{promNekrSlike[1]}}" width="150px" height="100px" (click)=' klikProm(1)'>
+        </div>
+        <div *ngIf='brPromNekr==3' class="galerija3">
+              <img src="/../assets/nekretnine/{{promNekrSlike[0]}}" width="150px" height="100px" (click)=' klikProm(0)'>
+              <img src="/../assets/nekretnine/{{promNekrSlike[1]}}" width="150px" height="100px" (click)=' klikProm(1)'>
+              <img src="/../assets/nekretnine/{{promNekrSlike[2]}}" width="150px" height="100px" (click)=' klikProm(2)'>
+        </div>
+        <div *ngIf='brPromNekr==4' class="galerija4">
+              <img src="/../assets/nekretnine/{{promNekrSlike[0]}}" width="150px" height="100px" (click)=' klikProm(0)'>
+              <img src="/../assets/nekretnine/{{promNekrSlike[1]}}" width="150px" height="100px" (click)=' klikProm(1)' >
+              <img src="/../assets/nekretnine/{{promNekrSlike[2]}}" width="150px" height="100px" (click)=' klikProm(2)'>
+              <img src="/../assets/nekretnine/{{promNekrSlike[3]}}" width="150px" height="100px" (click)=' klikProm(3)'>
+        </div>
+        <div *ngIf='brPromNekr==5' class="galerija5">
+              <img src="/../assets/nekretnine/{{promNekrSlike[0]}}" width="75%" height="100px" (click)=' klikProm(0)'>
+              <img src="/../assets/nekretnine/{{promNekrSlike[1]}}" width="75%" height="100px" (click)=' klikProm(1)'>
+              <img src="/../assets/nekretnine/{{promNekrSlike[2]}}" width="75%" height="100px" (click)=' klikProm(2)'>
+              <img src="/../assets/nekretnine/{{promNekrSlike[3]}}" width="75%" height="100px" (click)=' klikProm(3)'>
+              <img src="/../assets/nekretnine/{{promNekrSlike[4]}}" width="75%" height="100px" (click)=' klikProm(4)'>
+        </div>
+        <div *ngIf='brPromNekr>5' class="galerija7">
+          <button (click)="promNekrLevo()" class='btnStrelica'><</button>
+          <img src="/../assets/nekretnine/{{promNekrSlike[0]}}" width="75%" height="100px" (click)=' klikProm(0)'>
+          <img src="/../assets/nekretnine/{{promNekrSlike[1]}}" width="75%" height="100px" (click)=' klikProm(1)'>
+          <img src="/../assets/nekretnine/{{promNekrSlike[2]}}" width="75%" height="100px" (click)=' klikProm(2)'>
+          <img src="/../assets/nekretnine/{{promNekrSlike[3]}}" width="75%" height="100px" (click)=' klikProm(3)'>
+          <img src="/../assets/nekretnine/{{promNekrSlike[4]}}" width="75%" height="100px" (click)=' klikProm(4)'>
+          <button (click)="promNekrDesno()" class='btnStrelica'>></button>
+    </div>
+      </div>
+      <div class="glavniDeo">
+          <div class="pretragaForma">
+              <h1>Pretraga:</h1>
+              <form ngNativeValidate #searchForm>
+                <input type="checkbox" name="cb0" [(ngModel)]="pretragaBools[0]"><b>Po gradu </b>
+                <input type="text" placeholder="Unesi grad" *ngIf='pretragaBools[0]' name="tgp" [(ngModel)]='gradPretraga' required><br/>
+  
+                <input type="checkbox"  name="cb1" [(ngModel)]="pretragaBools[1]"><b>Po minimalnoj ceni </b>
+                <input type="text" placeholder="Unesi minimalnu cenu" *ngIf='pretragaBools[1]' name="tmicp" [(ngModel)]='minCenaPretraga' required pattern="^(\d+)$"><br/>
+  
+                <input type="checkbox"  name="cb2" [(ngModel)]="pretragaBools[2]"><b>Po maksimalnoj ceni </b>
+                <input type="text" placeholder="Unesi maksimalnu cenu" *ngIf='pretragaBools[2]' name="tmcp" [(ngModel)]='maxCenaPretraga' required pattern="^(\d+)$">
+                <br/><br/>
+                <button class="btnPretraga" (click)="searchForm.checkValidity()? pretrazi() : null">
+                  Pretrazi
+                </button>&nbsp;
+                <button class="btnPonistiPretragu" *ngIf='pretragaOn' (click)='ponistiPretragu()'>
+                  Ponisti pretragu
+                </button>
+              </form>
+          </div>
+          <div class="rezPretrage">
+                <div *ngIf='!pretragaOn'>
+                    <h1>Sve nekretnine</h1>
+                    <div *ngFor='let n of odobreneNekretnine'>
+                                  <div class="card" (click)='kliknuo(n.id)'>
+                                    <div class="container">
+                                      <h4><b>{{n.naziv}}</b></h4>
+                                      <p>{{n.opstina}}, {{n.grad}}</p>
+                                      <p>Tip: {{n.kucastanStr}}</p>
+                                      <p>Izdavanje/prodaja: {{n.izdajeprodajeStr}}</p>
+                                    </div>
+                                    <div class="pic">
+                                    <img src="/../../assets/nekretnine/{{n.randomSlika}}" alt="Avatar" width="153px" height="180px">
+                                    </div>
+                                  </div>
+                                  <br/>
+                  </div>
+                </div>
+                <div *ngIf='pretragaOn'>
+                    <h1>Rezultati pretrage</h1>
+                    <h3>Kriterijumi pretrage: {{kriterijumGrad}} | {{kriterijumMincena}} | {{kriterijumMaxcena}}</h3>
+                    <div *ngFor='let n of pretrazeneNekretnine'>
+                                  <div class="card" (click)='kliknuo(n.id)'>
+                                    <div class="container">
+                                      <h4><b>{{n.naziv}}</b></h4>
+                                      <p>{{n.opstina}}, {{n.grad}}</p>
+                                      <p>Tip: {{n.kucastanStr}}</p>
+                                      <p>Izdavanje/prodaja: {{n.izdajeprodajeStr}}</p>
+                                    </div>
+                                    <div class="pic">
+                                    <img src="/../../assets/nekretnine/{{n.randomSlika}}" alt="Avatar" width="153px" height="180px">
+                                    </div>
+                                  </div>
+                                  <br/>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </div>
+    <notifier-container></notifier-container>
+  
+  
+  
+  

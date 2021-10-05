@@ -1,0 +1,32 @@
+
+
+<div class='loginForm'>
+        <h1>Login</h1>
+        <hr color="black">
+        <form>
+            <table>
+                <tr>
+                    <td>Korisnicko ime:</td>
+                    <td>
+                        <input type="text" name="korime" [(ngModel)]="korisnicko_ime">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Lozinka:</td>
+                    <td>
+                        <input type="password" name="lozinka" [(ngModel)]="lozinka">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button (click)='prijava()'>Prijavi se</button>
+                    </td>
+                </tr>
+            </table>
+        </form>        
+       <hr color="black">
+        Nemas nalog? <a id="linkReg" routerLink='/signup'>Registruj se</a><br/>
+        <a (click)='gost()'>Udji kao gost</a>
+</div>
+<notifier-container></notifier-container>
+

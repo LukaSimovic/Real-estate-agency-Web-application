@@ -1,0 +1,270 @@
+<div id="mySidenav2" class="sidenav" *ngIf='korisnik.tip=="ag"'>
+    <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+    <a routerLink="/azuriranjeKorisnika/1" class="korlink">
+      <img src='/../../assets/korisnici/{{korisnik.slika}}' width="30px" height="30px">&nbsp;&nbsp;{{korisnik.korisnicko_ime}}
+    </a>
+    <a routerLink="/grafikoni" class='aktivan'>
+      <img src='/../../assets/razno/homeicon.png' width="15px" height="15px">&nbsp;&nbsp;Pocetna
+    </a>
+    <div class="dropdown">
+      <a class='dropbtn' (click)='prikaziDropdownMeniNekr()'>
+        <img src='/../../assets/razno/nekricon.jpg' width="15px" height="15px">&nbsp;&nbsp;Nekretnine
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src='/../../assets/razno/da.png' width="15px" height="15px">
+      </a>
+      <div class="dropdown-content" id='dropdownCont4'>
+        <a routerLink='/zahteviNekretnina'>&nbsp;&nbsp;&nbsp;Zahtevi za odobravanje</a>
+        <a routerLink='/mojeNekretnine'>&nbsp;&nbsp;&nbsp;Nekretnine agencije</a>
+        <a routerLink='/dodajNekretninu'>&nbsp;&nbsp;&nbsp;Dodaj nekretninu</a>
+        <a routerLink='/pretraga'>&nbsp;&nbsp;&nbsp;Pregled i pretraga</a>
+        <a routerLink='/promovisanje'>&nbsp;&nbsp;&nbsp;Promovisanje nekretnina</a>
+      </div>
+    </div>
+    <a routerLink="/ugovoreneProdaje">
+      <img src='/../../assets/razno/saleicon.png' width="15px" height="15px">&nbsp;&nbsp;Ugovorene prodaje
+    </a>
+    <a routerLink="/inbox">
+        <img src='/../../assets/razno/inboxicon.png' width="15px" height="15px">&nbsp;&nbsp;Inbox
+      </a>
+    <div class="dropdown">
+        <a class='dropbtn' (click)='prikaziDropdownMeniPod()'>
+          <img src='/../../assets/razno/setticon.png' width="15px" height="15px">&nbsp;&nbsp;Podesavanja 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img src='/../../assets/razno/da.png' width="15px" height="15px">
+        </a>
+        <div class="dropdown-content" id="dropdownCont2">
+          <a routerLink="/azuriranjeKorisnika/1">&nbsp;&nbsp;&nbsp;Azuriranje podataka</a>
+          <a routerLink="/promenaLozinke/1">&nbsp;&nbsp;&nbsp;Promena lozinke</a>
+        </div>
+    </div>
+      <span>
+      <a (click)='odjaviSe()' >
+        <img src='/../../assets/razno/logouticon.png' width="15px" height="15px">&nbsp;&nbsp;Odjavi se
+      </a>
+    </span>
+  </div>
+  
+  <div id="mySidenav" class="sidenav" *ngIf='korisnik.tip=="admin"'>
+      <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+      <a routerLink="/azuriranjeKorisnika/1" class="korlink">
+        <img src='/../../assets/korisnici/{{korisnik.slika}}' width="30px" height="30px">&nbsp;&nbsp;{{korisnik.korisnicko_ime}}
+      </a>
+      <a routerLink="/grafikoni" class='aktivan'>
+        <img src='/../../assets/razno/homeicon.png' width="15px" height="15px">&nbsp;&nbsp;Pocetna
+      </a>
+      <div class="dropdown">
+        <a class='dropbtn' (click)='prikaziDropdownMeniZaht()'>
+          <img src='/../../assets/razno/yesnoicon.png' width="15px" height="15px">&nbsp;&nbsp;Zahtevi
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+          <img src='/../../assets/razno/da.png' width="15px" height="15px">
+        </a>
+        <div class="dropdown-content" id='dropdownCont'>
+          <a routerLink="/zahteviKorisnik" >&nbsp;&nbsp;&nbsp;Za odobravanje korisnika</a>
+          <a routerLink='/zahteviNekretnina'>&nbsp;&nbsp;&nbsp;Za odobravanje nekretnina</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a class='dropbtn' (click)='prikaziDropdownMeniKor()'>
+          <img src='/../../assets/razno/usericon.png' width="15px" height="15px">&nbsp;&nbsp;Korisnici
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img src='/../../assets/razno/da.png' width="15px" height="15px">
+        </a>
+        <div class="dropdown-content" id='dropdownCont3'>
+          <a routerLink="/pregledKorisnika" >&nbsp;&nbsp;&nbsp;Pregled i izmena korisnika</a>
+          <a routerLink='/signup'>&nbsp;&nbsp;&nbsp;Dodaj korisnika</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a class='dropbtn' (click)='prikaziDropdownMeniNekr()'>
+          <img src='/../../assets/razno/nekricon.jpg' width="15px" height="15px">&nbsp;&nbsp;Nekretnine
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img src='/../../assets/razno/da.png' width="15px" height="15px">
+        </a>
+        <div class="dropdown-content" id='dropdownCont4'>
+          <a routerLink="/pretraga" >&nbsp;&nbsp;&nbsp;Pregled i pretraga</a>
+          <a routerLink='/dodajNekretninu'>&nbsp;&nbsp;&nbsp;Dodaj nekretninu</a>
+        </div>
+      </div>
+      <a routerLink="/ugovoreneProdaje">
+        <img src='/../../assets/razno/saleicon.png' width="15px" height="15px">&nbsp;&nbsp;Ugovorene prodaje
+      </a>
+      <div class="dropdown">
+          <a class='dropbtn' (click)='prikaziDropdownMeniPod()'>
+            <img src='/../../assets/razno/setticon.png' width="15px" height="15px">&nbsp;&nbsp;Podesavanja 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src='/../../assets/razno/da.png' width="15px" height="15px">
+          </a>
+          <div class="dropdown-content" id="dropdownCont2">
+            <a routerLink="/azuriranjeKorisnika/1">&nbsp;&nbsp;&nbsp;Azuriranje podataka</a>
+            <a routerLink="/promenaLozinke/1">&nbsp;&nbsp;&nbsp;Promena lozinke</a>
+          </div>
+      </div>
+        <span>
+        <a (click)='odjaviSe()' >
+          <img src='/../../assets/razno/logouticon.png' width="15px" height="15px">&nbsp;&nbsp;Odjavi se
+        </a>
+      </span>
+  </div>
+    
+    <!-- Use any element to open the sidenav -->
+    <div class="levo">
+    <span (click)="openNav()">&#9776;</span>
+    </div>
+  
+    
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+  <div id="main">
+    <h2>Dobrodosli {{korisnik.ime}} {{korisnik.prezime}}</h2>
+    <div *ngIf='korisnik.tip=="admin"'>
+      <form>
+        
+        <table class='tabela'>
+          <tr>
+            <td colspan="2">
+              <h3>Procenat koji agencija uzima za posredovanje</h3>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Za prodaju:
+            </td>
+            <td>
+              <input type="text" name='pp' [(ngModel)]='proc_prodaja'>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Za izdavanje:
+            </td>
+            <td>
+              <input type="text" name='pi' [(ngModel)]='proc_izdavanje'>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button (click)='sacuvajProcente()' class='btnSacuvaj'>Sacuvaj</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <br><br>
+    <div class="spoljna">
+      <div class="unutrasnja">
+        <div class='naslovCharta'>Broj nekretnina po gradovima:</div>
+        <div *ngIf='prikaz1==1'>
+          <canvas baseChart
+          [datasets]="barChartData11"
+          [labels]="barChartLabels11"
+          [options]="barChartOptions"
+          [legend]="barChartLegendT"
+          [chartType]="barChartType"></canvas>
+          <button class='btnRS' (click)='razdvoji(1)'>Posebno za stanove i kuće</button>
+        </div>
+        <div *ngIf='prikaz1==2'>
+          <canvas baseChart
+          [datasets]="barChartData12"
+          [labels]="barChartLabels12"
+          [options]="barChartOptions"
+          [legend]="barChartLegendT"
+          [chartType]="barChartType"></canvas>
+          <button class='btnRS' (click)='spoji(1)'>Bez razdvajanja na stanove i kuće</button>
+        </div>
+      </div>
+      <br><br>
+      <div class="unutrasnja">
+        <div class='naslovCharta'>Broj nekretnina po tipu usluge:</div>
+        <div *ngIf='prikaz2==1'>
+          <canvas baseChart
+          [datasets]="barChartData21"
+          [labels]="barChartLabels21"
+          [options]="barChartOptions"
+          [legend]="barChartLegendT"
+          [chartType]="barChartType"></canvas>
+          <button class='btnRS' (click)='razdvoji(2)'>Posebno za stanove i kuće</button>
+        </div>
+        <div *ngIf='prikaz2==2'>
+          <canvas baseChart
+          [datasets]="barChartData22"
+          [labels]="barChartLabels22"
+          [options]="barChartOptions"
+          [legend]="barChartLegendT"
+          [chartType]="barChartType"></canvas>
+          <button class='btnRS' (click)='spoji(2)'>Bez razdvajanja na stanove i kuće</button>
+        </div>
+      </div>
+      <br><br>
+      <div class="unutrasnja">
+        <div class='naslovCharta'>Cenovni rang nekretnina koje se izdaju:</div>
+        <div *ngIf='prikaz3==1'>
+          <canvas baseChart
+          [datasets]="barChartData31"
+          [labels]="barChartLabels31"
+          [options]="barChartOptions"
+          [legend]="barChartLegendT"
+          [chartType]="barChartType"></canvas>
+          <button (click)='razdvoji(3)' class='btnRS'>Posebno za stanove i kuće</button>
+        </div>
+        <div *ngIf='prikaz3==2'>
+          <canvas baseChart
+          [datasets]="barChartData32"
+          [labels]="barChartLabels32"
+          [options]="barChartOptions"
+          [legend]="barChartLegendT"
+          [chartType]="barChartType"></canvas>
+          <button  (click)='spoji(3)' class='btnRS'>Bez razdvajanja na stanove i kuće</button>
+        </div>
+      </div>
+      <br><br>
+      <div class="unutrasnja">
+        <div class='naslovCharta'>Cenovni rang nekretnina koje se prodaju:</div>
+        <div *ngIf='prikaz5==1'>
+          <canvas baseChart
+          [datasets]="barChartData51"
+          [labels]="barChartLabels51"
+          [options]="barChartOptions"
+          [legend]="barChartLegendT"
+          [chartType]="barChartType"></canvas>
+          <button (click)='razdvoji(5)' class='btnRS'>Posebno za stanove i kuće</button>
+        </div>
+        <div *ngIf='prikaz5==2'>
+          <canvas baseChart
+          [datasets]="barChartData52"
+          [labels]="barChartLabels52"
+          [options]="barChartOptions"
+          [legend]="barChartLegendT"
+          [chartType]="barChartType"></canvas>
+          <button  (click)='spoji(5)' class='btnRS'>Bez razdvajanja na stanove i kuće</button>
+        </div>
+      
+      </div>
+      <br><br>
+      <div class="unutrasnja">
+        <div class='naslovCharta'>Broj nekretnina po oznaci promocije</div>
+        <div *ngIf='prikaz4==1'>
+          <canvas baseChart
+          [datasets]="barChartData41"
+          [labels]="barChartLabels41"
+          [options]="barChartOptions"
+          [legend]="barChartLegendT"
+          [chartType]="barChartType"></canvas>
+          <button (click)='razdvoji(4)' class='btnRS'>Posebno za stanove i kuće</button>
+        </div>
+        <div *ngIf='prikaz4==2'>
+          <canvas baseChart
+          [datasets]="barChartData42"
+          [labels]="barChartLabels42"
+          [options]="barChartOptions"
+          [legend]="barChartLegendT"
+          [chartType]="barChartType"></canvas>
+          <button  (click)='spoji(4)' class='btnRS'>Bez razdvajanja na stanove i kuće</button>
+        </div>
+       
+
+      </div>
+      
+    </div>
+    <notifier-container></notifier-container>
+
+  </div>
+  

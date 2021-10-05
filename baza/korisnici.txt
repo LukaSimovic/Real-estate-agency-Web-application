@@ -1,0 +1,252 @@
+
+{
+    "ime" : "Miroslav",
+    "prezime" : "Mirkovic",
+    "korisnicko_ime" : "mire",
+    "lozinka" : "Miroslav-123",
+    "slika" : "miroslav.png",
+    "email" : "miroslav.mirkovic99@gmail.com",
+    "drzava" : "Srbija",
+    "grad" : "Beograd",
+    "tip" : "reg",
+    "status" : "O",
+    "blokirani" : []
+}
+
+{
+    "ime" : "Luka",
+    "prezime" : "Simovic",
+    "korisnicko_ime" : "simke",
+    "lozinka" : "Luka-123",
+    "slika" : "simke.jpg",
+    "email" : "luka.simovic99@gmail.com",
+    "drzava" : "Srbija",
+    "grad" : "Beograd",
+    "tip" : "admin",
+    "status" : "O",
+    "blokirani" : []
+}
+
+{
+    "ime" : "Marko",
+    "prezime" : "Obradovic",
+    "korisnicko_ime" : "djetic",
+    "lozinka" : "Marko-123",
+    "slika" : "djeta.png",
+    "email" : "marko.obradovic99@gmail.com",
+    "drzava" : "Crna Gora",
+    "grad" : "Podgorica",
+    "tip" : "reg",
+    "status" : "O",
+    "blokirani" : []
+}
+
+{
+    "ime" : "Aleksandar",
+    "prezime" : "Radosevic",
+    "korisnicko_ime" : "aca",
+    "lozinka" : "Aleksandar-123",
+    "slika" : "aca.png",
+    "email" : "aleksandar.radosevic99@gmail.com",
+    "drzava" : "Srbija",
+    "grad" : "Beograd",
+    "tip" : "ag",
+    "status" : "O",
+    "blokirani" : []
+}
+
+{
+    "ime" : "Jana",
+    "prezime" : "Zivkovic",
+    "korisnicko_ime" : "jana",
+    "lozinka" : "Jana-123",
+    "slika" : "tijanaboskovic.jpg",
+    "email" : "jana.zivkovic00@gmail.com",
+    "drzava" : "Srbija",
+    "grad" : "Veliko Gradiste",
+    "tip" : "reg",
+    "status" : "O",
+    "blokirani" : []
+}
+
+{
+    "ime" : "Lazar",
+    "prezime" : "Vulic",
+    "korisnicko_ime" : "vule",
+    "lozinka" : "Lazar-123",
+    "slika" : "asano.png",
+    "email" : "lazar.vulic99@gmail.com",
+    "drzava" : "Srbija",
+    "grad" : "Jagodina",
+    "tip" : "reg",
+    "status" : "O",
+    "blokirani" : []
+}
+
+{
+    "ime" : "Jovan",
+    "prezime" : "Pavlovic",
+    "korisnicko_ime" : "joca",
+    "lozinka" : "Jovan-123",
+    "slika" : "haland.png",
+    "email" : "jovan.pavlovic99@gmail.com",
+    "drzava" : "Srbija",
+    "grad" : "Novi Sad",
+    "tip" : "ag",
+    "status" : "O",
+    "blokirani" : []
+}
+
+{
+    "ime" : "Matija",
+    "prezime" : "Dodovic",
+    "korisnicko_ime" : "dodo",
+    "lozinka" : "Matija-123",
+    "slika" : "witsel.png",
+    "email" : "matija.dodovic99@gmail.com",
+    "drzava" : "Srbija",
+    "grad" : "Valjevo",
+    "tip" : "reg",
+    "status" : "O",
+    "blokirani" : []
+}
+
+{
+    "ime" : "Ivana",
+    "prezime" : "Goranovic",
+    "korisnicko_ime" : "ivana",
+    "lozinka" : "Ivana-123",
+    "email" : "ivana.goranovic99@gmail.com",
+    "drzava" : "Srbija",
+    "grad" : "Veliko Gradiste",
+    "slika" : "brankica.png",
+    "tip" : "reg",
+    "status" : "O",
+    "blokirani" : []
+}
+
+{
+    "ime" : "Jelena",
+    "prezime" : "Bakic",
+    "korisnicko_ime" : "jeca",
+    "lozinka" : "Jelena-123",
+    "email" : "jelena.bakic99@gmail.com",
+    "drzava" : "Srbija",
+    "grad" : "Uzice",
+    "slika" : "milicadabovic.jpg",
+    "tip" : "reg",
+    "status" : "N",
+    "blokirani" : []
+}
+
+{
+    "ime" : "Uros",
+    "prezime" : "Stajic",
+    "korisnicko_ime" : "uki",
+    "lozinka" : "Uros-123",
+    "email" : "uros.stajic99@gmail.com",
+    "drzava" : "Srbija",
+    "grad" : "Cuprija",
+    "slika" : "lazarmarkovic.png",
+    "tip" : "reg",
+    "status" : "O",
+    "blokirani" : []
+}
+
+{
+    "ime" : "Igor",
+    "prezime" : "Cancar",
+    "korisnicko_ime" : "caki",
+    "lozinka" : "Igor-123",
+    "email" : "igor.cancar99@gmail.com",
+    "drzava" : "Bosna i Hercegovina",
+    "grad" : "Foca",
+    "slika" : "cancar.png",
+    "tip" : "reg",
+    "status" : "O",
+    "blokirani" : []
+}
+
+{
+    "ime" : "Zeljko",
+    "prezime" : "Lucic",
+    "korisnicko_ime" : "zeks",
+    "lozinka" : "Zeljko-123",
+    "email" : "zeljko.lucic99@gmail.com",
+    "drzava" : "Bosna i Hercegovina",
+    "grad" : "Bijeljina",
+    "slika" : "nopicture.png",
+    "tip" : "reg",
+    "status" : "O",
+    "blokirani" : []
+}
+
+{
+    "ime" : "Stevan",
+    "prezime" : "Popovic",
+    "korisnicko_ime" : "steva",
+    "lozinka" : "Stevan-123",
+    "slika" : "steva.jpg",
+    "email" : "stevan.popovic99@gmail.com",
+    "drzava" : "Srbija",
+    "grad" : "Borca",
+    "tip" : "reg",
+    "status" : "O",
+    "blokirani" : []
+}
+
+{
+    "ime" : "Kosta",
+    "prezime" : "Matijevic",
+    "korisnicko_ime" : "kole",
+    "lozinka" : "Kosta-123",
+    "slika" : "kosta.jpg",
+    "email" : "kosta.matijevic00@gmail.com",
+    "drzava" : "Srbija",
+    "grad" : "Beograd",
+    "tip" : "ag",
+    "status" : "O",
+    "blokirani" : []
+}
+
+{
+    "ime" : "Marina",
+    "prezime" : "Zlatkovic",
+    "korisnicko_ime" : "maki",
+    "lozinka" : "Marina-123",
+    "email" : "marina.zlatkovic99@gmail.com",
+    "drzava" : "Srbija",
+    "grad" : "Vranje",
+    "slika" : "nopicture.png",
+    "tip" : "reg",
+    "status" : "N",
+    "blokirani" : []
+}
+
+{
+    "ime" : "Bratislav",
+    "prezime" : "Filipovic",
+    "korisnicko_ime" : "badzi",
+    "lozinka" : "Bratislav-123",
+    "email" : "bratislav.filipovic99@gmail.com",
+    "drzava" : "Srbija",
+    "grad" : "Beograd",
+    "slika" : "zigic.jpg",
+    "tip" : "reg",
+    "status" : "N",
+    "blokirani" : []
+}
+
+{
+    "blokirani" : [],
+    "ime" : "Miladin",
+    "prezime" : "Devedzic",
+    "korisnicko_ime" : "mile",
+    "lozinka" : "Miladin-123",
+    "email" : "miladin.devedzic99@gmail.com",
+    "drzava" : "Srbija",
+    "grad" : "Kraljevo",
+    "slika" : "hazard.png",
+    "tip" : "reg",
+    "status" : "N"
+}

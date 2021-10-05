@@ -1,0 +1,301 @@
+<div id="mySidenav3" class="sidenav" *ngIf='korisnik.tip=="ag"'>
+  <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+  <a routerLink="/azuriranjeKorisnika/1" class="korlink">
+    <img src='/../../assets/korisnici/{{korisnik.slika}}' width="30px" height="30px">&nbsp;&nbsp;{{korisnik.korisnicko_ime}}
+  </a>
+  <a routerLink="/grafikoni">
+    <img src='/../../assets/razno/homeicon.png' width="15px" height="15px">&nbsp;&nbsp;Pocetna
+  </a>
+  <div class="dropdown">
+    <a class='dropbtn' (click)='prikaziDropdownMeniNekr()'>
+      <img src='/../../assets/razno/nekricon.jpg' width="15px" height="15px">&nbsp;&nbsp;Nekretnine
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src='/../../assets/razno/da.png' width="15px" height="15px">
+    </a>
+    <div class="dropdown-content" id='dropdownCont4'>
+      <a routerLink='/zahteviNekretnina'>&nbsp;&nbsp;&nbsp;Zahtevi za odobravanje</a>
+      <a routerLink='/mojeNekretnine'>&nbsp;&nbsp;&nbsp;Nekretnine agencije</a>
+      <a routerLink='/dodajNekretninu' class='aktivan'>&nbsp;&nbsp;&nbsp;Dodaj nekretninu</a>
+      <a routerLink='/pretraga'>&nbsp;&nbsp;&nbsp;Pregled i pretraga</a>
+      <a routerLink='/promovisanje'>&nbsp;&nbsp;&nbsp;Promovisanje nekretnina</a>
+    </div>
+  </div>
+  <a routerLink="/ugovoreneProdaje">
+    <img src='/../../assets/razno/saleicon.png' width="15px" height="15px">&nbsp;&nbsp;Ugovorene prodaje
+  </a>
+  <a routerLink="/inbox">
+      <img src='/../../assets/razno/inboxicon.png' width="15px" height="15px">&nbsp;&nbsp;Inbox
+    </a>
+  <div class="dropdown">
+      <a class='dropbtn' (click)='prikaziDropdownMeniPod()'>
+        <img src='/../../assets/razno/setticon.png' width="15px" height="15px">&nbsp;&nbsp;Podesavanja 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src='/../../assets/razno/da.png' width="15px" height="15px">
+      </a>
+      <div class="dropdown-content" id="dropdownCont2">
+          <a routerLink="/azuriranjeKorisnika/1">&nbsp;&nbsp;&nbsp;Azuriranje podataka</a>
+          <a routerLink="/promenaLozinke/1">&nbsp;&nbsp;&nbsp;Promena lozinke</a>
+      </div>
+  </div>
+    <span>
+    <a (click)='odjaviSe()' >
+      <img src='/../../assets/razno/logouticon.png' width="15px" height="15px">&nbsp;&nbsp;Odjavi se
+    </a>
+  </span>
+</div>
+
+<div id="mySidenav2" class="sidenav" *ngIf='korisnik.tip=="admin"'>
+  <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+  <a routerLink="/azuriranjeKorisnika/1" class="korlink">
+    <img src='/../../assets/korisnici/{{korisnik.slika}}' width="30px" height="30px">&nbsp;&nbsp;{{korisnik.korisnicko_ime}}
+  </a>
+  <a routerLink="/grafikoni">
+    <img src='/../../assets/razno/homeicon.png' width="15px" height="15px">&nbsp;&nbsp;Pocetna
+  </a>
+  <div class="dropdown">
+    <a class='dropbtn' (click)='prikaziDropdownMeniZaht()'>
+      <img src='/../../assets/razno/yesnoicon.png' width="15px" height="15px">&nbsp;&nbsp;Zahtevi
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+      <img src='/../../assets/razno/da.png' width="15px" height="15px">
+    </a>
+    <div class="dropdown-content" id='dropdownCont'>
+      <a routerLink="/zahteviKorisnik" >&nbsp;&nbsp;&nbsp;Za odobravanje korisnika</a>
+      <a routerLink='/zahteviNekretnina'>&nbsp;&nbsp;&nbsp;Za odobravanje nekretnina</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <a class='dropbtn' (click)='prikaziDropdownMeniKor()'>
+      <img src='/../../assets/razno/usericon.png' width="15px" height="15px">&nbsp;&nbsp;Korisnici
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src='/../../assets/razno/da.png' width="15px" height="15px">
+    </a>
+    <div class="dropdown-content" id='dropdownCont3'>
+      <a routerLink="/pregledKorisnika" >&nbsp;&nbsp;&nbsp;Pregled i izmena korisnika</a>
+      <a routerLink='/signup'>&nbsp;&nbsp;&nbsp;Dodaj korisnika</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <a class='dropbtn' (click)='prikaziDropdownMeniNekr()'>
+      <img src='/../../assets/razno/nekricon.jpg' width="15px" height="15px">&nbsp;&nbsp;Nekretnine
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src='/../../assets/razno/da.png' width="15px" height="15px">
+    </a>
+    <div class="dropdown-content" id='dropdownCont4'>
+      <a routerLink="/pretraga" >&nbsp;&nbsp;&nbsp;Pregled i pretraga</a>
+      <a routerLink='/dodajNekretninu' class='aktivan'>&nbsp;&nbsp;&nbsp;Dodaj nekretninu</a>
+    </div>
+  </div>
+  <a routerLink="/ugovoreneProdaje">
+    <img src='/../../assets/razno/saleicon.png' width="15px" height="15px">&nbsp;&nbsp;Ugovorene prodaje
+  </a>
+  <div class="dropdown">
+      <a class='dropbtn' (click)='prikaziDropdownMeniPod()'>
+        <img src='/../../assets/razno/setticon.png' width="15px" height="15px">&nbsp;&nbsp;Podesavanja 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src='/../../assets/razno/da.png' width="15px" height="15px">
+      </a>
+      <div class="dropdown-content" id="dropdownCont2">
+        <a routerLink="/azuriranjeKorisnika/1">&nbsp;&nbsp;&nbsp;Azuriranje podataka</a>
+        <a routerLink="/promenaLozinke/1">&nbsp;&nbsp;&nbsp;Promena lozinke</a>
+      </div>
+  </div>
+    <span>
+    <a (click)='odjaviSe()' >
+      <img src='/../../assets/razno/logouticon.png' width="15px" height="15px">&nbsp;&nbsp;Odjavi se
+    </a>
+  </span>
+</div>
+
+<div id="mySidenav" class="sidenav" *ngIf='korisnik.tip=="reg"'>
+    <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+    <a routerLink="/azuriranjeKorisnika/1" class="korlink">
+      <img src='/../../assets/korisnici/{{korisnik.slika}}' width="30px" height="30px">&nbsp;&nbsp;{{korisnik.korisnicko_ime}}
+    </a>
+    <a routerLink="/pretraga">
+      <img src='/../../assets/razno/homeicon.png' width="15px" height="15px">&nbsp;&nbsp;Pocetna
+    </a>
+    <div class="dropdown">
+      <a class='dropbtn' (click)='prikaziDropdownMeniNekr()'>
+        <img src='/../../assets/razno/nekricon.jpg' width="15px" height="15px">&nbsp;&nbsp;Nekretnine
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src='/../../assets/razno/da.png' width="15px" height="15px">
+      </a>
+      <div class="dropdown-content" id='dropdownCont4'>
+        <a routerLink="/mojeNekretnine" >&nbsp;&nbsp;&nbsp;Moje nekretnine</a>
+        <a routerLink='/dodajNekretninu' class='aktivan'>&nbsp;&nbsp;&nbsp;Dodaj nekretninu</a>
+      </div>
+    </div>
+    <a routerLink='/inbox'>
+      <img src='/../../assets/razno/inboxicon.png' width="15px" height="15px">&nbsp;&nbsp;Inbox
+    </a>
+    <div class="dropdown">
+        <a class='dropbtn' (click)='prikaziDropdownMeniPod()'>
+          <img src='/../../assets/razno/setticon.png' width="15px" height="15px">&nbsp;&nbsp;Podesavanja 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img src='/../../assets/razno/da.png' width="15px" height="15px">
+        </a>
+        <div class="dropdown-content" id="dropdownCont2">
+          <a routerLink='/azuriranjeKorisnika/1'>&nbsp;&nbsp;&nbsp;Azuriranje podataka</a>
+          <a routerLink="/promenaLozinke/1">&nbsp;&nbsp;&nbsp;Promena lozinke</a>
+        </div>
+    </div>
+      <span>
+      <a (click)='odjaviSe()' >
+        <img src='/../../assets/razno/logouticon.png' width="15px" height="15px">&nbsp;&nbsp;Odjavi se
+      </a>
+    </span>
+</div>
+  
+  <!-- Use any element to open the sidenav -->
+  <div class="levo">
+  <span (click)="openNav()">&#9776;</span>
+  </div>
+
+  
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+  <div class='dodavanjeNekrForm'>
+    <h3>Dodavanje nekretnine</h3>
+    <form ngNativeValidate #dnForm>
+        <table border="1"> 
+            <tr>
+                <td>Kratak, deskriptivni naziv:</td>
+                <td>
+                   <textarea  name="naziv" [(ngModel)]="naziv" rows="3" cols="20" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Grad:</td>
+                <td>
+                    <input type="text" name="grad" [(ngModel)]="grad" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Opstina:</td>
+                <td>
+                    <input type="text" name="opstina" [(ngModel)]="opstina" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Adresa i broj:</td>
+                <td>
+                    <input type="text" name="adresa" [(ngModel)]="adresa" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Tip:</td>
+                <td>
+                    <input type="radio" name="tip" [(ngModel)]="tip" value='1'>Kuca
+                    <input type="radio" name="tip" [(ngModel)]="tip" value='0'>Stan
+                </td>
+            </tr>
+            <tr *ngIf='tip=="0"'>
+              <td>
+                  Na spratu:<br/><button (click)='btnUsprat()'>
+                      <div *ngIf='!prikazUsprat'>Uputstvo</div>
+                      <div *ngIf='prikazUsprat'>Sakrij uputstvo</div>
+                    </button>
+                </td>
+              <td>
+                  <input type="text" name="sprat" [(ngModel)]="sprat" required pattern="^(-?\d+)$">
+              </td>
+          </tr>
+          <tr *ngIf='tip=="0"'>
+              <td>Broj spratova u zgradi:</td>
+              <td>
+                  <input type="text" name="br_spratova" [(ngModel)]="br_spratova" required pattern="^(\d+)$">
+              </td>
+          </tr>
+          <tr *ngIf='tip=="1"'>
+              <td>Broj spratova:</td>
+              <td>
+                  <input type="text" name="br_spratova" [(ngModel)]="br_spratova" required pattern="^(\d+)$">
+              </td>
+          </tr>
+          <tr>
+            <td>Kvadratura:</td>
+            <td>
+                <input type="text" name="kvadratura" [(ngModel)]="kvadratura" required pattern="^(\d+)$">
+            </td>
+            </tr>
+            <tr>
+                <td>
+                  Broj soba<br/><button (click)="btnUbrSoba()">
+                    <div *ngIf='!prikazUbrSoba'>Uputstvo</div>
+                    <div *ngIf='prikazUbrSoba'>Sakrij uputstvo</div>
+                  </button>
+                </td>
+                <td>
+                    <input type="text" name="br_soba" [(ngModel)]="br_soba" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"> <div *ngIf='!tip'><input type="checkbox">Namesten</div>
+                  <div *ngIf='tip=="0"'><input type="checkbox" name="namesten" [(ngModel)]="namesten" >Namesten</div>
+                  <div *ngIf='tip=="1"'><input type="checkbox" name="namesten" [(ngModel)]="namesten" >Namestena</div>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" id="loadFileXml" value="Izaberi slike/video zapise" onclick="document.getElementById('images').click();" />
+                    <input type="file" style="display:none;" id="images" name="images" multiple  (change)="selectMultipleImage($event)"/>
+                </td>
+                <td>
+                      <select name="fajlovi">
+                          <option *ngFor='let fs of fajloviSlike'>{{fs}}</option>
+                          <option *ngFor='let fv of fajloviVideo'>{{fv}}</option>
+                      </select>
+                </td>
+            </tr>
+            <tr>
+              <td>Vrsta usluge:</td>
+              <td>
+                  <input type="radio" name="izdavanje" [(ngModel)]="izdavanje" value='1'>Izdavanje
+                  <input type="radio" name="izdavanje" [(ngModel)]="izdavanje" value='0'>Prodaja
+              </td>
+          </tr>
+            <tr>
+                <td>Cena:<div *ngIf='izdavanje=="1"'>(Iznos za mesecni najam)</div></td>
+                <td>
+                    <input type="text" name="cena" [(ngModel)]="cena" required pattern="^(\d+)$">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button name="submit"  type="submit" (click)="dnForm.checkValidity()? dodajNekretninu() : null">
+                        Dodaj nekretninu
+                 </button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+    <hr color="black" size="1px">
+    <div *ngIf='korisnik.tip=="reg"'>
+      <button routerLink='/mojeNekretnine'>Pregled mojih nekretnina</button>&nbsp;&nbsp;
+      <button routerLink='/pretraga'>Pocetna strana</button>
+    </div>
+    <div *ngIf='korisnik.tip=="admin"'>
+      <button routerLink='/pretraga'>Pregled i pretraga nekretnina</button>&nbsp;&nbsp;
+      <button routerLink='/grafikoni'>Pocetna strana</button>
+    </div>
+    <div *ngIf='korisnik.tip=="ag"'>
+      <button routerLink='/pretraga'>Pregled i pretraga nekretnina</button>&nbsp;&nbsp;
+      <button routerLink='/grafikoni'>Pocetna strana</button>
+    </div>
+   
+    
+</div>
+<div *ngIf='prikazUsprat' class="uSprat">
+    Upisite broj sprata na kojem se nalazi stan. Ako se stan nalazi u suterenu upisite -1, a u prizemlju 0. Ako se stan
+    nalazi u potkrovlju, upisite za jedan broj veci nego sto zgrada ima spratova.
+</div>
+<div *ngIf='prikazUbrSoba' class="uBrSoba">
+   Pozeljno je broj soba upisati slovima i prilagoditi rod tipu nekretnine. Ako je u pitanju stan, broj soba napisati u muskom rodu
+   (npr jednosoban, dvoiposoban), a ako je u pitanju kuca u zenskom rodu (npr. cetvorosobna, troiposobna). Takodje,
+   kao broj soba moze se upisati i garsonjera ili sl.
+</div>
+<notifier-container></notifier-container>
+
+</div>
